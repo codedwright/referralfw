@@ -1,6 +1,7 @@
-# Referral Cleaning & Restoration
-## Wordpress Theme ##
+# Referral Cleaning &amp; Restoration
 
-*Under Construction*
+## Wordpress Theme
 
-This website will go live at [ReferralFW.com] (http://referralfw.com/).
+**Under Construction**
+
+This website will go live at [ReferralFW.com](http://referralfw.com/).
