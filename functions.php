@@ -14,10 +14,10 @@ function referralfw_theme_setup(){
 }
 
 add_action('after_setup_theme', 'referralfw_theme_setup');
-
+require_once('referral_faq_meta_box.php');
 require_once('referral_submenu_walker.php');
 require_once('referral_nav_walker.php');
-require_once('faq_menu_boxes.php');
+// require_once('faq_menu_boxes.php');
 
 // function init_widgets($id){
 // 	register_sidebar(array(
@@ -31,3 +31,5 @@ require_once('faq_menu_boxes.php');
 // }
 //
 // add_action('widgets_init', 'init_widgets');
+
+

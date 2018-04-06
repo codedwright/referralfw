@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-
 <main>
     <section class="features">
         <div class="row">
@@ -36,16 +35,16 @@
                     <div class="row">
                         <!-- https://developers.google.com/youtube/player_parameters -->
                         <div class="col-6 col-sm-12 embed-responsive embed-responsive-16by9 pb-1">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KkF7KZ52ezo?controls=0&rel=0&showinfo=0&modestbranding=1" allowfullscreen></iframe>
+                            <iframe class="embed-responsive-item pb-1" src="https://www.youtube.com/embed/KkF7KZ52ezo?controls=0&rel=0&showinfo=0&modestbranding=1" allowfullscreen></iframe>
                         </div>
                         <div class="col-6 col-sm-12 embed-responsive embed-responsive-16by9 pb-1">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KkF7KZ52ezo?controls=0&rel=0&showinfo=0&modestbranding=1" allowfullscreen></iframe>
+                            <iframe class="embed-responsive-item pb-1" src="https://www.youtube.com/embed/KkF7KZ52ezo?controls=0&rel=0&showinfo=0&modestbranding=1" allowfullscreen></iframe>
                         </div>
                         <div class="col-6 col-sm-12 embed-responsive embed-responsive-16by9 pb-1">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KkF7KZ52ezo?controls=0&rel=0&showinfo=0&modestbranding=1" allowfullscreen></iframe>
+                            <iframe class="embed-responsive-item pb-1" src="https://www.youtube.com/embed/KkF7KZ52ezo?controls=0&rel=0&showinfo=0&modestbranding=1" allowfullscreen></iframe>
                         </div>
                         <div class="col-6 col-sm-12 embed-responsive embed-responsive-16by9 pb-1">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KkF7KZ52ezo?controls=0&rel=0&showinfo=0&modestbranding=1" allowfullscreen></iframe>
+                            <iframe class="embed-responsive-item pb-1" src="https://www.youtube.com/embed/KkF7KZ52ezo?controls=0&rel=0&showinfo=0&modestbranding=1" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>

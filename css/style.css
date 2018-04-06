@@ -139,15 +139,18 @@ nav a span {
 nav ul li {
     position:relative;
     display: block;
-    float:right;
+    float: left;
     white-space: nowrap;
 }
 
 nav > ul > li > ul {
     padding: 0;
     width: auto;
-    right: 0;
+    left: 0;
 
+}
+nav > ul > li > ul:first {
+    left: -15px;
 }
 nav ul ul {
 	display: none;
@@ -168,7 +171,7 @@ nav ul ul li { /* level 2 */
 
 nav ul ul ul {
 	position:absolute;
-	right: 100%;
+	left: 100%;
 	top: 0px;
 	margin:0;
 }
@@ -184,7 +187,7 @@ nav ul li:hover > ul {
  }
 
 nav ul {
-    width: 100%;
+    /* width: 100%; */
     white-space: nowrap;
 }
 
@@ -321,11 +324,17 @@ nav ul li, nav ul li a {
         width: 100%;
         position: relative;
     }
+    .offcanvas-right .dropdown.active+.children {
+        display: none;
+    }
+    .offcanvas-right.active .dropdown.active+.children {
+        display: block;
+    }
     .dropdown.active+.children li {
         width: 100%;
     }
     nav ul ul ul {
-        right: 0;
+        left: 0;
     }
     nav ul, nav ul li, nav ul li ul li, nav ul li ul li ul li {
         background: #333;
