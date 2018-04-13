@@ -8,16 +8,21 @@
 
     <!-- <?php bloginfo('template_url'); ?> -->
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/icons.css" />
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/component.css" />
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/style.css" /> -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
     <link rel="shortcut icon" href="http://referralfw.com/wp-content/uploads/Referral-Cleaning-Restoration-Red-Watermark-Large.png">
     <link rel="apple-touch-icon" href="http://referralfw.com/wp-content/uploads/Referral-Cleaning-Restoration-Red-Watermark-Large.png">
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/demo.css" />
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/icons.css" />
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/component.css" />
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/style.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/demo.css" /> -->
+    <!-- <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/icons.css" /> -->
+    <!-- <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/component.css" /> -->
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/styles.css" />
     <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
     <?php wp_head(); ?>
 </head>
@@ -93,13 +98,43 @@
                     </div>
                     <ul>
                         <?php
-                            wp_list_pages(array(
-                                'sort_column' => 'menu_order',
-                                'title_li'    => '',
-                                'child_of'    => '',
-                                'exclude'     => '',
-                                'walker'      => new Referral_Nav_Walker()
-                            ));
+                            // referralfw.com excerpt
+                            // wp_list_pages(array(
+                            //     'sort_column' => 'menu_order',
+                            //     'title_li'    => '',
+                            //     'child_of'    => '',
+                            //     'exclude'     => '',
+                            //     'walker'      => new Referral_Nav_Walker()
+                            // ));
+                            //
+                            
+                            $args = array(
+                                'timeout'     => 30,
+                                'redirection' => 5,
+                                'httpversion' => '1.0',
+                                'user-agent'  => 'WordPress/' . $wp_version . '; ' . home_url(),
+                                'blocking'    => true,
+                                'headers'     => array(),
+                                'cookies'     => array(),
+                                'body'        => null,
+                                'compress'    => false,
+                                'decompress'  => true,
+                                'sslverify'   => true,
+                                'stream'      => false,
+                                'filename'    => null
+                            ); 
+
+                            $response = wp_remote_get('http://referralfw.com/navigation/', $args);
+
+                            if ( is_array( $response ) ) {
+                                $header = $response['headers']; // array of http header lines
+                                $body = $response['body']; // use the content
+                                echo $body;
+                            } else {
+                                if( is_wp_error( $response ) ) {
+                                    echo $response->get_error_message();
+                                }
+                            }
                         ?>
                     </ul>
                 </nav>
