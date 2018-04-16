@@ -86,7 +86,7 @@
             $(this).parent().siblings().children('.dropdown.active').removeClass('active');
             $(this).toggleClass("active");
         });
-        $("#trigger").click(function(){
+        $(".menu-trigger").click(function(){
             $(".offcanvas").addClass("active");
         });
         $(".backdrop").click(function(){

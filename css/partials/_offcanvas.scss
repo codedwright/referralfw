@@ -1,0 +1,140 @@
+
+body {
+    overflow-x: hidden;
+    /* Prevent scroll on narrow devices */
+}
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 1s, opacity 0.5s linear;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.95);
+    z-index: 16;
+    /*to counter act the pills for the slideshow*/
+    
+}
+.offcanvas {
+    position: relative;
+    transition: all .30s ease-in-out;
+    
+
+    .backdrop {
+        position: fixed;
+        top: 0;
+        left: 0;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 1s, opacity 0.5s linear;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        background: rgba(0, 0, 0, 0.95);
+        z-index: 16;
+        /*to counter act the pills for the slideshow*/
+    }
+
+    &.active {
+        
+        .backdrop {
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+}
+
+.offcanvas-right {
+    right: 0;
+    
+    .dropdown {
+        &.active{
+            + .children {
+                display: none;
+                li {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .sidebar-offcanvas {
+        right: -100%;
+        /* 12 columns */
+        @include media-breakpoint-up(lg) { 
+            right: 0;
+        }
+    }
+
+    &.active {
+        right: 85%;
+        /* 6 columns */
+        width: 100%;
+
+        .dropdown {
+            &.active{
+                + .children {
+                    display: block;
+                }
+            }
+        }
+
+        .sidebar-offcanvas {
+            right: -85%;
+            /* 6 columns was -85% */
+            visibility: visible;
+        }
+    }
+}
+.offcanvas-left {
+    left: 0;
+
+    .sidebar-offcanvas {
+        left: -100%;
+        /* 12 columns */
+    }
+
+    &.active {
+        left: 85%;
+        /* 6 columns */
+        width: 100%;
+
+        .sidebar-offcanvas{
+            left: -85%;
+            /* 6 columns  was -85% */
+            visibility: visible;
+        }
+    }
+}
+.sidebar-offcanvas {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    width: 85%;
+    /* 6 columns */
+    transition: all .25s ease-in-out;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    z-index: 17;
+    @include media-breakpoint-up(lg) { 
+        visibility: inherit;
+        transition: all .25s ease-in-out;
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        z-index: 17;
+    }
+}
+
+.container {
+    @include media-breakpoint-down(md) {
+        max-width: 100%;
+    }
+}
+

@@ -1,8 +1,8 @@
 <?php get_header(); ?>
-
+i
     <main class="row"><!-- index.php -->
         <?php if(is_active_sidebar('sidebar')) : ?>
-            <div class="col-md-8">
+            <div class="col-md-9">
         <?php else : ?>
             <div class="col-md-12">
         <?php endif; ?>
@@ -25,7 +25,7 @@
         <?php endif; ?>
             </div>
         <?php if(is_active_sidebar('sidebar')) : ?>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <?php dynamic_sidebar('sidebar'); ?>
             </div>
         <?php endif; ?>

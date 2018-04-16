@@ -116,14 +116,14 @@ module.exports = function(grunt) {
 				tasks: ['concat', 'uglify'],
             },
             html: {
-            	files: '**/*.html'
+            	files: ['**/*.html', '**/*.php']
 			},
-			// livereload: {
-			// 	options: {
-			// 		livereload: true
-			// 	},
-			// 	files: ['css/styles.css']
-			// }
+			livereload: {
+				options: {
+					livereload: true
+				},
+				files: ['css/styles.css']
+			}
         }	
 
 

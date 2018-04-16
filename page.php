@@ -1,9 +1,10 @@
 <?php get_header(); ?>
+hi
     <?php if(have_posts()) : ?>
         <?php while(have_posts()) : the_post(); ?>
             <main class="row">
                 <?php if(is_active_sidebar('sidebar')) : ?>
-                    <div class="col-md-8">
+                    <div class="col-md-9">
                 <?php else : ?>
                     <div class="col-md-12">
                 <?php endif; ?>
@@ -21,7 +22,7 @@
     <?php endif; ?>
                     </div>
                 <?php if(is_active_sidebar('sidebar')) : ?>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <?php dynamic_sidebar('sidebar'); ?>
                     </div>
                 <?php endif; ?>

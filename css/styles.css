@@ -9172,6 +9172,336 @@ a:hover, a:focus {
   display: block;
 }
 
+body {
+  overflow-x: hidden;
+  /* Prevent scroll on narrow devices */
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 1s, opacity 0.5s linear;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.95);
+  z-index: 16;
+  /*to counter act the pills for the slideshow*/
+}
+
+.offcanvas {
+  position: relative;
+  transition: all .30s ease-in-out;
+}
+
+.offcanvas .backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 1s, opacity 0.5s linear;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.95);
+  z-index: 16;
+  /*to counter act the pills for the slideshow*/
+}
+
+.offcanvas.active .backdrop {
+  visibility: visible;
+  opacity: 1;
+}
+
+.offcanvas-right {
+  right: 0;
+}
+
+.offcanvas-right .dropdown.active + .children {
+  display: none;
+}
+
+.offcanvas-right .dropdown.active + .children li {
+  width: 100%;
+}
+
+.offcanvas-right .sidebar-offcanvas {
+  right: -100%;
+  /* 12 columns */
+}
+
+@media (min-width: 992px) {
+  .offcanvas-right .sidebar-offcanvas {
+    right: 0;
+  }
+}
+
+.offcanvas-right.active {
+  right: 85%;
+  /* 6 columns */
+  width: 100%;
+}
+
+.offcanvas-right.active .dropdown.active + .children {
+  display: block;
+}
+
+.offcanvas-right.active .sidebar-offcanvas {
+  right: -85%;
+  /* 6 columns was -85% */
+  visibility: visible;
+}
+
+.offcanvas-left {
+  left: 0;
+}
+
+.offcanvas-left .sidebar-offcanvas {
+  left: -100%;
+  /* 12 columns */
+}
+
+.offcanvas-left.active {
+  left: 85%;
+  /* 6 columns */
+  width: 100%;
+}
+
+.offcanvas-left.active .sidebar-offcanvas {
+  left: -85%;
+  /* 6 columns  was -85% */
+  visibility: visible;
+}
+
+.sidebar-offcanvas {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  width: 85%;
+  /* 6 columns */
+  transition: all .25s ease-in-out;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  z-index: 17;
+}
+
+@media (min-width: 992px) {
+  .sidebar-offcanvas {
+    visibility: inherit;
+    transition: all .25s ease-in-out;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    z-index: 17;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+nav {
+  background: #333;
+}
+
+@media (min-width: 992px) {
+  nav {
+    z-index: 300;
+    background-color: transparent;
+  }
+}
+
+nav a {
+  display: block;
+  padding: 0 50px 0 18px;
+  color: #f7f7f7;
+  line-height: 49px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+@media (min-width: 992px) {
+  nav a {
+    line-height: 1.5;
+    padding: 15px;
+  }
+}
+
+nav ul {
+  background: #333 !important;
+  list-style-type: none;
+  margin: 0;
+}
+
+@media (min-width: 992px) {
+  nav ul {
+    height: 50px;
+  }
+}
+
+nav ul li {
+  width: 100%;
+  height: auto;
+  border-top: 1px solid #ccc;
+  min-height: 50px;
+  position: relative;
+  display: block;
+  float: left;
+}
+
+@media (min-width: 992px) {
+  nav ul li {
+    width: auto;
+    border: none;
+    white-space: nowrap;
+  }
+  nav ul li:hover > ul {
+    display: block;
+  }
+}
+
+nav ul li ul {
+  display: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+@media (min-width: 992px) {
+  nav ul li ul {
+    position: absolute;
+    clear: both;
+  }
+}
+
+nav ul li ul li {
+  /* level 2 */
+  margin: 0;
+  width: 100%;
+  /* submenu width fix */
+}
+
+@media (min-width: 992px) {
+  nav ul li ul li {
+    width: 100%;
+  }
+}
+
+nav ul li ul ul {
+  margin-left: 0;
+}
+
+@media (min-width: 992px) {
+  nav ul li ul ul {
+    position: absolute;
+    left: 100%;
+    top: 0px;
+  }
+}
+
+nav ul li ul ul li {
+  /* level 3 */
+  width: 100%;
+  display: block;
+  float: none;
+}
+
+nav > ul {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+nav > ul:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 992px) {
+  nav > ul > li > ul {
+    z-index: 275;
+  }
+}
+
+@media (max-width: 991.98px) {
+  nav > ul > li > ul > li > a {
+    padding: 0 50px 0 36px;
+  }
+}
+
+@media (min-width: 992px) {
+  nav > ul > li > ul > li ul > {
+    z-index: 250;
+  }
+}
+
+@media (max-width: 991.98px) {
+  nav > ul > li > ul > li ul > li > a {
+    padding: 0 50px 0 72px;
+  }
+}
+
+nav > ul > li:last-child {
+  border-bottom: 1px solid #ccc;
+}
+
+@media (min-width: 992px) {
+  nav > ul > li:last-child {
+    border: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .children {
+    height: auto;
+    background: red !important;
+    box-shadow: 0 1px 9px 2px black;
+  }
+}
+
+.dropdown {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-left: 1px solid #ccc;
+  transition: all .25s ease-in-out;
+}
+
+.dropdown:before {
+  content: '\25BC';
+}
+
+.dropdown.active:before {
+  content: '\25B2';
+}
+
+@media (min-width: 992px) {
+  .dropdown {
+    display: none;
+  }
+}
+
+body {
+  color: #fff;
+  font-weight: 300;
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
 .menu-trigger {
   height: 43px;
   width: 52px;
@@ -9196,6 +9526,10 @@ a:hover, a:focus {
   .menu-trigger {
     width: 100%;
   }
+}
+
+.ytp-cued-thumbnail-overlay-duration {
+  display: none !important;
 }
 
 .features > .row {
@@ -9244,257 +9578,6 @@ a:hover, a:focus {
   border: 1px solid rgba(255, 255, 255, 0.6);
 }
 
-ul {
-  padding: 0;
-  margin: 0;
-}
-
-nav a {
-  display: block;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: all .3s ease-in-out;
-  padding: 14px 18px 10px 18px;
-}
-
-nav a span {
-  display: block;
-}
-
-nav ul {
-  height: 100%;
-  background: red;
-  white-space: nowrap;
-}
-
-nav ul li {
-  height: 100%;
-  position: relative;
-  display: block;
-  float: left;
-  white-space: nowrap;
-}
-
-nav ul li:hover > ul {
-  display: block;
-}
-
-nav ul li a {
-  height: 100%;
-}
-
-nav ul ul {
-  display: none;
-  position: absolute;
-  clear: both;
-  z-index: 250;
-  margin-left: 0px;
-}
-
-nav ul ul li {
-  /* level 2 */
-  margin: 0;
-  width: 100%;
-  /* submenu width fix */
-  position: relative;
-  display: table;
-  float: left;
-  clear: both;
-  background-color: red;
-}
-
-nav ul ul ul {
-  position: absolute;
-  left: 100%;
-  top: 0px;
-  margin: 0;
-}
-
-nav ul ul ul li {
-  /* level 3 */
-  width: 100%;
-  display: block;
-  float: none;
-  background-color: red;
-}
-
-nav > ul > li > ul {
-  padding: 0;
-  width: auto;
-  left: 0;
-}
-
-nav > ul > li > ul:first {
-  left: -15px;
-}
-
-/*
- * Off Canvas
- * --------------------------------------------------
- */
-@media screen and (max-width: 991px) {
-  body {
-    overflow-x: hidden;
-    /* Prevent scroll on narrow devices */
-  }
-  .backdrop {
-    position: fixed;
-    top: 0;
-    left: 0;
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 1s, opacity 0.5s linear;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    background: rgba(0, 0, 0, 0.95);
-    z-index: 16;
-    /*to counter act the pills for the slideshow*/
-  }
-  .offcanvas {
-    position: relative;
-    transition: all .30s ease-in-out;
-  }
-  .offcanvas .backdrop {
-    position: fixed;
-    top: 0;
-    left: 0;
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 1s, opacity 0.5s linear;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    background: rgba(0, 0, 0, 0.95);
-    z-index: 16;
-    /*to counter act the pills for the slideshow*/
-  }
-  .offcanvas.active .backdrop {
-    visibility: visible;
-    opacity: 1;
-  }
-  .offcanvas-right {
-    right: 0;
-  }
-  .offcanvas-right .dropdown.active + .children {
-    display: none;
-  }
-  .offcanvas-right .dropdown.active + .children li {
-    width: 100%;
-  }
-  .offcanvas-right .sidebar-offcanvas {
-    right: -100%;
-    /* 12 columns */
-  }
-  .offcanvas-right.active {
-    right: 85%;
-    /* 6 columns */
-    width: 100%;
-  }
-  .offcanvas-right.active .dropdown.active + .children {
-    display: block;
-  }
-  .offcanvas-right.active .sidebar-offcanvas {
-    right: -85%;
-    /* 6 columns was -85% */
-    visibility: visible;
-  }
-  .offcanvas-left {
-    left: 0;
-  }
-  .offcanvas-left .sidebar-offcanvas {
-    left: -100%;
-    /* 12 columns */
-  }
-  .offcanvas-left.active {
-    left: 85%;
-    /* 6 columns */
-    width: 100%;
-  }
-  .offcanvas-left.active .sidebar-offcanvas {
-    left: -85%;
-    /* 6 columns  was -85% */
-    visibility: visible;
-  }
-  .container {
-    max-width: 100%;
-  }
-  .sidebar-offcanvas {
-    visibility: hidden;
-    position: absolute;
-    top: 0;
-    width: 85%;
-    /* 6 columns */
-    transition: all .25s ease-in-out;
-    padding: 0;
-    margin: 0;
-    height: 100%;
-    z-index: 17;
-  }
-  nav a {
-    padding: 0 50px 0 18px;
-    line-height: 50px;
-  }
-  nav a:hover {
-    text-decoration: none;
-    color: #ccc;
-  }
-  nav ul li {
-    width: 100%;
-    height: auto;
-    border-top: 1px solid #ccc;
-    min-height: 50px;
-  }
-  nav ul li ul ul {
-    left: 0;
-  }
-  nav ul li:hover > ul {
-    display: none;
-  }
-  nav > ul > li > ul > li > a {
-    padding: 0 50px 0 36px;
-  }
-  nav > ul > li > ul > li ul > li > a {
-    padding: 0 50px 0 72px;
-  }
-  nav > ul > li:last-child {
-    border-bottom: 1px solid #ccc;
-  }
-  .dropdown {
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 50px;
-    width: 50px;
-    line-height: 50px;
-    text-align: center;
-    border-left: 1px solid #ccc;
-    transition: all .25s ease-in-out;
-  }
-  .dropdown:before {
-    content: '\25BC';
-  }
-  .dropdown.active + .children {
-    display: block;
-    width: 100%;
-    position: relative;
-  }
-  .dropdown.active:before {
-    content: '\25B2';
-  }
-  .dropdown.active + .children li {
-    width: 100%;
-  }
-  nav ul,
-  nav ul li,
-  nav ul li ul li,
-  nav ul li ul li ul li,
-  .sidebar-offcanvas {
-    background: #333;
-  }
-}
-
 @media screen and (max-width: 575px) {
   .dropdown {
     border-bottom: 1px solid #ccc;
@@ -9502,6 +9585,10 @@ nav > ul > li > ul:first {
   nav ul li {
     white-space: initial;
   }
+}
+
+header a:hover {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
