@@ -25,7 +25,7 @@ nav {
         list-style-type: none;
         margin: 0;
         @include media-breakpoint-up(lg) {
-            height: 50px; // lg only sm no effect
+            height: 54px; // lg only sm no effect
         }
         li {
             width: 100%;
@@ -48,7 +48,6 @@ nav {
                 display: none;
                 margin-left: 0;
                 padding-left: 0;
-
                 @include media-breakpoint-up(lg) { 
                     position: absolute;
                     clear:both;
@@ -64,7 +63,7 @@ nav {
     
                 ul {
                     @include media-breakpoint-up(lg) { 
-                        position:absolute;
+                        position: absolute;
                         left: 100%;
                         top: 0px;
                     }

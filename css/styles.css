@@ -9348,7 +9348,7 @@ nav ul {
 
 @media (min-width: 992px) {
   nav ul {
-    height: 50px;
+    height: 54px;
   }
 }
 
@@ -9496,6 +9496,23 @@ nav > ul > li:last-child {
   }
 }
 
+main {
+  background: white;
+  color: black;
+}
+
+main a {
+  color: black;
+}
+
+main a :hover {
+  color: #6c757d;
+}
+
+main .display-4 {
+  font-weight: 700;
+}
+
 body {
   color: #fff;
   font-weight: 300;
@@ -9571,11 +9588,6 @@ body {
 
 .marketing p {
   font-size: .85rem;
-}
-
-.list-group-item {
-  background-color: rgba(255, 255, 255, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.6);
 }
 
 @media screen and (max-width: 575px) {
