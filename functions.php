@@ -133,3 +133,5 @@ function add_playlist_column_content( $content, $column_name, $term_id ){
 //     $sortable[ 'playlist-input' ] = 'playlist-input';
 //     return $sortable;
 // }
+
+// https://www.smashingmagazine.com/2015/12/how-to-use-term-meta-data-in-wordpress/
