@@ -37,7 +37,7 @@ class Referral_Submenu_Walker extends Walker_Page {
         if ( !empty($has_children) ) {
             $output .= $indent . '<li class="' . $css_class . ' page_item_has_children"><a href="' . get_page_link($page->ID) . '" title="' . esc_attr( wp_strip_all_tags( apply_filters( 'the_title', $page->post_title, $page->ID ) ) ) . '"><span>' . $link_before . apply_filters( 'the_title', $page->post_title, $page->ID ) . $link_after . '</span></a>';
         } else {
-            $output .= $indent . '<li class="' . $css_class . ' list-group-item list-group-item-info"><a href="' . get_page_link($page->ID) . '" title="' . esc_attr( wp_strip_all_tags( apply_filters( 'the_title', $page->post_title, $page->ID ) ) ) . '"><span>' . $link_before . apply_filters( 'the_title', $page->post_title, $page->ID ) . $link_after . '</span></a>';
+            $output .= $indent . '<li class="' . $css_class . ' list-group-item"><a href="' . get_page_link($page->ID) . '" title="' . esc_attr( wp_strip_all_tags( apply_filters( 'the_title', $page->post_title, $page->ID ) ) ) . '"><span>' . $link_before . apply_filters( 'the_title', $page->post_title, $page->ID ) . $link_after . '</span></a>';
         }
     	if ( !empty($show_date) ) {
     		if ( 'modified' == $show_date )
