@@ -48,46 +48,20 @@
                             //         echo '<li><a href="' . get_term_meta( $term->term_id, 'playlist-input', true ) . '">' . esc_html( $term->name ) . '</a></li>'; 
                             //     }
                             // echo '</ul>';
-                            $playlist = get_term_meta( $meta[0]->term_id, 'playlist-input', true ); ?>
-                            
+                            $playlist = get_term_meta( $meta[0]->term_id, 'playlist-input', true ); ?>   
                 <div class="col">
                     <h3 class="lead">Don’t Take Our Word For It!<br />Listen To Our Clients!</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col">
-                            
-                            
-                            <?php require_once('playlist.php'); playlist($playlist); ?>
-
+                <div class="col">       
+                <?php require_once('playlist.php'); playlist($playlist); ?>
                 <!-- <iframe  class="embed-responsive-item" src="https://www.youtube.com/embed/KkF7KZ52ezo?list=PL26AB4782528E64AE&controls=0&rel=0&showinfo=0&modestbranding=1" frameborder="0" allowfullscreen=""></iframe> -->
                 </div>
-
                             <?php
                         }
                     }
                 ?>
-                    <?php
-                        // /*
-                        //     https://developers.google.com/apis-explorer/#p/
-                        //     https://developers.google.com/youtube/player_parameters
-                        // */
-                        
-                        // $meta = wp_get_object_terms( $post->ID,  'playlist' );
-                        // if ( ! empty( $meta ) ) {
-                        //     if ( ! is_wp_error( $meta ) ) {
-                        //         // echo '<ul>';
-                        //         //     foreach( $meta as $term ) {
-                        //         //         echo '<li><a href="' . get_term_meta( $term->term_id, 'playlist-input', true ) . '">' . esc_html( $term->name ) . '</a></li>'; 
-                        //         //     }
-                        //         // echo '</ul>';
-                        //         $playlist = get_term_meta( $playlist[0]->term_id, 'playlist-input', true );
-                        //     }
-                        // }
-
-                        
-                    ?>
-
             </div>
         </div>
         <article class="page col col-lg-8 pl-lg-5">

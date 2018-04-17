@@ -52,6 +52,7 @@ function playlist($playlist){
     }
 }
 
+// https://codex.wordpress.org/Function_Reference/wp_get_object_terms
 // $meta = wp_get_object_terms( $post->ID,  'playlist' );
 // if ( ! empty( $meta ) ) {
 //     if ( ! is_wp_error( $meta ) ) {
