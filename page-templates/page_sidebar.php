@@ -68,7 +68,23 @@
             <h1 class="display-4">
                 <?php the_title(); ?>
             </h1>
-            <?php the_content(); ?>
+            
+
+            <?php 
+            
+            $data = get_post_meta($post -> ID, "referral-faq-meta-box", true);
+            echo '<ul>';
+            if (count($data) > 0) {
+                foreach((array) $data as $p) {
+                    if (isset($p['title']) || isset($p['description'])) {
+                        echo '<li>Title: '.$p['title'].' Description: '.$p['description'].'</li>';
+                    }
+                }
+            }
+            echo '</ul>';
+            
+            
+            the_content(); ?>
         </article>
     </div>
     <div class="row">
