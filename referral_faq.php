@@ -1,6 +1,6 @@
 <?php
 //https://wordpress.stackexchange.com/questions/25478/custom-post-type-metabox-array
-    function referral_faq_template($cnt, $template = null) {
+    function referral_faq_template($count, $template = null) {
         if ($template === null){
             $title = $description = '';
         } else{
@@ -11,17 +11,17 @@
         <div class="row my-1">
             <div class="col-8">
                 <div class="form-group">
-                    <label for="referral-faq-meta-box['.$cnt.'][title]">Title: </label>
-                    <input type="text" id="referral-faq-meta-box['.$cnt.'][title]" class="form-control" name="referral-faq-meta-box['.$cnt.'][title]" value="'.$title.'">
+                    <label for="referral-faq-meta-box['.$count.'][title]">Title: </label>
+                    <input type="text" id="referral-faq-meta-box['.$count.'][title]" class="form-control" name="referral-faq-meta-box['.$count.'][title]" value="'.$title.'">
                     <small id="emailHelp" class="form-text text-muted">This is where you put the Heading of your FAQ answer.</small>
                 </div>
                 <div class="form-group">
-                    <label for="referral-faq-meta-box['.$cnt.'][description]">Description: </label>
-                    <textarea id="referral-faq-meta-box['.$cnt.'][description]" class="form-control" name="referral-faq-meta-box['.$cnt.'][description]"  rows="5">'.$description.'</textarea>
+                    <label for="referral-faq-meta-box['.$count.'][description]">Description: </label>
+                    <textarea id="referral-faq-meta-box['.$count.'][description]" class="form-control" name="referral-faq-meta-box['.$count.'][description]"  rows="5">'.$description.'</textarea>
                 </div>
             </div>
             <div class="col-4">
-                <span class="btn btn-danger remove h-100 referral-faq-'.$cnt.'">
+                <span class="btn btn-danger remove h-100 referral-faq-'.$count.'">
                     <i class="fas fa-minus-square h-100 align-middle"></i>
                 </span>
             </div>
