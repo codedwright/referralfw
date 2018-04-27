@@ -42,9 +42,9 @@
     
     
     //add custom field - price
-    add_action("add_meta_boxes", "object_init");
+    add_action("add_meta_boxes", "referral_faq_meta_box_init");
     
-    function object_init() {
+    function referral_faq_meta_box_init() {
         
         wp_enqueue_script( 'fontawesome', 'https://use.fontawesome.com/releases/v5.0.2/js/all.js');
         wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/css/meta-boxes.css');
