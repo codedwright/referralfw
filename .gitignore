@@ -49,9 +49,11 @@ php/connect.php
 php/md5.php
 
 # assets
-assets/
-img/
-fonts/
+assets/images
+assets/fonts
+assets/js/*.js
+
+
 
 # ftp
 .ftppass
