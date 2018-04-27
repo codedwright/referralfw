@@ -1,4 +1,4 @@
-<?php
+<?php 
 add_action('init', 'register_playlist_taxonomy');
 
 function register_playlist_taxonomy() {
