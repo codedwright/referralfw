@@ -23,37 +23,49 @@ module.exports = function(grunt) {
 				stripBanners: false,
 				banner: '<%= banner %>',
 				separator: '\n'
-			},
-			lib: {
+			},		
+			scripts: {
 				src: [
-					'node_modules/bootstrap/dist/js/bootstrap.js', 
-					'node_modules/jquery/dist/jquery.js',
-					'node_modules/popper.js/dist/popper.js',
-					'node_modules/angular-sanitize/angular-sanitize.js',
-					'node_modules/ngmap/build/scripts/ng-map.js'
+					'node_modules/bootstrap/dist/js/bootstrap.js' 
 				],
-                dest: 'styles.js'
+                dest: 'assets/js/scripts.js'
+			},
+			jquery: {
+				src: 'node_modules/jquery/dist/jquery.js',
+                dest: 'assets/js/jquery.js'
+			},
+			popper: {
+				src: 'node_modules/popper.js/dist/popper.js',
+                dest: 'assets/js/popper.js'
 			},
             dist: {
                 src: [
-					'js/*.js'
+					'assets/js/*/*.js'
 				],
-                dest: '<%= pkg.name %>.js'
+                dest: 'assets/js/<%= pkg.name %>.js'
             }
         },
 
 		uglify: {
 			options: {
-				banner: '<%= banner %>',
+				// banner: '<%= banner %>',
 				mangle: false,
 			},
 			lib: {
-				src: 'scripts.js',
-				dest: 'scripts.min.js'
+				src: 'assets/js/scripts.js',
+				dest: 'assets/js/scripts.min.js'
+			},
+			jquery: {
+				src: 'assets/js/jquery.js',
+				dest: 'assets/js/jquery.min.js'
+			},
+			popper: {
+				src: 'assets/js/popper.js',
+				dest: 'assets/js/popper.min.js'
 			},
 			build: {
-				src: '<%= pkg.name %>.js',
-				dest: '<%= pkg.name %>.min.js'
+				src: 'assets/js/<%= pkg.name %>.js',
+				dest: 'assets/js/<%= pkg.name %>.min.js'
 			}
 		},
 
@@ -75,9 +87,14 @@ module.exports = function(grunt) {
 				outputStyle: 'expanded', // nested, expanded, compact, compressed
 				sourceMap: true
 			},
+			bootstrap: {
+				files: {
+					'assets/css/meta-boxes.css': 'assets/css/meta-boxes.scss'
+				}
+			},
 			dist: {
 				files: {
-					'css/styles.css': 'css/styles.scss'
+					'assets/css/styles.css': 'assets/css/styles.scss'
 				}
 			}
 		},
@@ -107,12 +124,12 @@ module.exports = function(grunt) {
 		    	livereload: true
 		    },
 			css: {
-				files: '**/*.scss',
+				files: 'assets/**/*.scss',
 	            tasks: 'scss',
 	            
 			},
 			js: {
-				files: ['js/*.js', 'js/**/*.js'],
+				files: ['assets/js/*.js', 'assets/js/**/*.js'],
 				tasks: ['concat', 'uglify'],
             },
             html: {
@@ -122,7 +139,7 @@ module.exports = function(grunt) {
 				options: {
 					livereload: true
 				},
-				files: ['css/styles.css']
+				files: ['assets/css/styles.css']
 			}
         }	
 
@@ -138,8 +155,8 @@ module.exports = function(grunt) {
 
 	// Default task(s).
 	grunt.registerTask('default', ['concat', 'uglify:build']);
-	grunt.registerTask('build', ['scss', 'concat', 'uglify:lib', 'uglify:build']);
-	grunt.registerTask('scss', ['sass']);
+	grunt.registerTask('build', ['scss', 'concat', 'uglify']);
+	grunt.registerTask('scss', ['sass:dist', 'sass:bootstrap']);
 
 	// https://github.com/semantic-release/semantic-release
 	// https://docs.npmjs.com/getting-started/semantic-versioning
