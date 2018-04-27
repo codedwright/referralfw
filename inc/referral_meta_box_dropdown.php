@@ -26,6 +26,9 @@ function referral_meta_box_dropdown() {
             if($('#page_template').val() == 'faq.php') {
                 // show the meta box
                 $('#referral-faq-meta-box').slideDown();
+            } else if($('#page_template').val() == 'gallery.php') {
+                // show the meta box
+                $('#referral-gallery-meta-box').slideDown();
             } else {
                 // hide your meta box
                 $('.meta-box-sortables>[id^=referral-]').slideUp();
@@ -45,6 +48,9 @@ function referral_meta_box_dropdown() {
                 if($(this).val() == 'faq.php') {
                     // show the meta box
                     $('[id^=referral-faq-meta-box]').slideDown();
+                } else if($(this).val() == 'gallery.php') {
+                    // show the meta box
+                    $('#referral-gallery-meta-box').slideDown();
                 } else {
                     // hide your meta box
                     //$('#referral-faq-meta-box').slideUp();
