@@ -68,8 +68,18 @@
 <?php wp_footer(); ?>
 <script>
     $(document).ready(function(){
-        
-        
+        setHeights = function() {
+            if($(window).width() > 575) {
+                $(".youtube").height($("#slideshow").height());
+                console.log("Window Above 575px");
+            } else if ($("#slideshow").height() < 150) {
+                $(".youtube").height(150);
+                console.log("slideshow Too Small");
+            }
+        }
+        setHeights();
+        $(window).on('resize', setHeights);
+        $('.carousel-item > img').on('load', setHeights);
 
         $(".page_item_has_children > a").after("<span class='dropdown'></span>");
         $(".dropdown").click(function(){
@@ -83,15 +93,6 @@
             $(".offcanvas").removeClass("active");
         });
     });
-</script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-66549127-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-66549127-1');
 </script>
 
 </body>
