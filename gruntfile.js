@@ -148,13 +148,13 @@ module.exports = function(grunt) {
 
 	// Load the plugin that provides the "uglify" task.
 	grunt.loadNpmTasks('grunt-contrib-jshint');
-	grunt.loadNpmTasks('grunt-contrib-concat');
+	grunt.loadNpmTasks('grunt-contrib-concat'); 
 	grunt.loadNpmTasks('grunt-contrib-uglify-es');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-sass');
 
 	// Default task(s).
-	grunt.registerTask('default', ['concat:dist', 'uglify:build']);
+	grunt.registerTask('default', ['concat', 'uglify:build']);
 	grunt.registerTask('build', ['scss', 'concat', 'uglify']);
 	grunt.registerTask('scss', ['sass:dist', 'sass:bootstrap']);
 
