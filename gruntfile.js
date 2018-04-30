@@ -154,7 +154,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-sass');
 
 	// Default task(s).
-	grunt.registerTask('default', ['concat', 'uglify:build']);
+	grunt.registerTask('default', ['concat:dist', 'uglify:build']);
 	grunt.registerTask('build', ['scss', 'concat', 'uglify']);
 	grunt.registerTask('scss', ['sass:dist', 'sass:bootstrap']);
 

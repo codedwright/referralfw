@@ -102,12 +102,46 @@ body {
 // }
 
 
-.features > .row {
+.features:nth-of-type(1) > .row {
     max-height: 500px;
     @include media-breakpoint-up(xl) { 
         max-height: auto;    
     }
+    > div:nth-of-type(2) {
+        display: flex;
+    }
 
+    // .container {
+    //     display: flex;
+    //     height: 100vh;
+    //   }
+      
+    //   .child {
+    //     border: 1px solid grey;
+    //     background-color: lightgrey;
+    //     flex: 1 1 auto;
+    //   }
+      
+    //   .controls-panel {
+    //     display: flex;
+    //     flex-direction: column;
+    //   }
+      
+    //   .controls {
+    //     flex: 0 0 auto;
+    //   }
+      
+    //   .content-wrapper {
+    //     flex: 1 1 auto;
+    //     width: 400px;
+    //     overflow-y: auto;
+    //   }
+    //   .content-item {
+    //     display: inline-block;
+    //     width: 100px;
+    //     height: 100px;
+    //     background-color: red;
+    //   }
     .youtube {
         min-height: 150px;
         overflow-y: hidden;
@@ -127,9 +161,10 @@ body {
         }
 
         @include media-breakpoint-up(sm) {
-            overflow-y: auto;
+            overflow-y: scroll;
         }
     }
+
 }
 
 .marketing {
