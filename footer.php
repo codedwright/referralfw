@@ -65,7 +65,7 @@
         </div>
     </footer>
 </div>
-<?php wp_footer(); ?>
+
 <script>
     $(document).ready(function(){
         $(".page_item_has_children > a").after("<span class='dropdown'></span>");
@@ -81,6 +81,6 @@
         });
     });
 </script>
-
+<?php wp_footer(); ?>
 </body>
 </html>
