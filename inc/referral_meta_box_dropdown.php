@@ -26,12 +26,18 @@ function referral_meta_box_dropdown() {
             if($('#page_template').val() == 'faq.php') {
                 // show the meta box
                 $('#referral-faq-meta-box').slideDown();
+                $('#normal-sortables > [id^=referral-]:not(#referral-faq-meta-box)').slideUp();
+            } else if($('#page_template').val() == 'frontpage.php') {
+                // show the meta box
+                $('#referral-frontpage-meta-box').slideDown();
+                $('#normal-sortables > [id^=referral-]:not(#referral-frontpage-meta-box)').slideUp();
             } else if($('#page_template').val() == 'gallery.php') {
                 // show the meta box
                 $('#referral-gallery-meta-box').slideDown();
+                $('#normal-sortables > [id^=referral-]:not(#referral-gallery-meta-box)').slideUp();
             } else {
                 // hide your meta box
-                $('.meta-box-sortables>[id^=referral-]').slideUp();
+                $('#normal-sortables > [id^=referral-]').slideUp();
             }
 
             // Debug only
@@ -51,6 +57,9 @@ function referral_meta_box_dropdown() {
                 } else if($(this).val() == 'gallery.php') {
                     // show the meta box
                     $('#referral-gallery-meta-box').slideDown();
+                } else if($(this).val() == 'frontpage.php') {
+                    // show the meta box
+                    $('#referral-frontpage-meta-box').slideDown();
                 } else {
                     // hide your meta box
                     //$('#referral-faq-meta-box').slideUp();
