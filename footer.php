@@ -1,17 +1,17 @@
     <footer>
         <div class="bg-primary">
             <div class="container">
-                <div class="row align-items-stretch">
-                    <div class="col-3 col-md-6 col-lg-2 py-3">
+                <div class="row pt-3">
+                    <div class="col-6 col-md-3 col-lg-2 py-3">
                         <img src="http://referralfw.com/wp-content/uploads/soa-logo.jpg" alt="" class="img-fluid">
                     </div>
-                    <div class="col-3 col-md-6 col-lg-2 py-3">
+                    <div class="col-6 col-md-3 col-lg-2 py-3">
                         <img src="http://referralfw.com/wp-content/uploads/iicrc.jpg" alt="" class="img-fluid">
                     </div>
-                    <div class="col-3 col-md-6 col-lg-2 py-3">
+                    <div class="col-6 col-md-3 col-lg-2 py-3">
                         <img src="http://referralfw.com/wp-content/uploads/bbb.jpg" alt="" class="img-fluid">
                     </div>
-                    <div class="col-3 col-md-6 col-lg-2 py-3">
+                    <div class="col-6 col-md-3 col-lg-2 py-3">
                         <img src="http://referralfw.com/wp-content/uploads/angies-list-ethical-services.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-12 col-lg-4 py-3 px-3 px-lg-4">
