@@ -1,0 +1,81 @@
+.written {
+    blockquote { 
+        quotes: '\201C' '\201D';
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        &:before {
+            font-family: 'Times New Roman';
+            font-weight: bold;
+            font-size: 1.5rem;
+            margin-left: -1.5rem;
+            line-height: 100%;
+            content: open-quote;
+            float: left;
+        }
+        &:after {
+            font-family: 'Times New Roman';
+            font-weight: bold;
+            font-size: 1.5rem;
+            margin-right: -1.5rem;
+            line-height: 100%;
+            content: close-quote;
+            float: right;
+        }
+    }
+
+    .carousel-inner {
+        @media (min-width: 768px) {
+            .carousel-item-right.active, .carousel-item-next {
+                transform: translateX(50%);
+                transition: all 1s ease-in-out;
+            }
+            .carousel-item-left.active, .carousel-item-prev {
+                background: green;
+                transform: translateX(-50%);
+                transition: all 1s ease-in-out;
+            }
+            .carousel-item-right, .carousel-item-left{ 
+                transform: translateX(0);
+                transition: all 1s ease-in-out;
+            }
+        }
+        .carousel-item.active {        
+            z-index: 2;
+            @extend .bg-light;
+        }
+        .carousel-item {
+            transition: all 1s ease-in-out;
+            .row {
+                @extend .m-0;
+            }
+        }
+    }
+}
+.video {        
+    .carousel-inner {
+        @media (min-width: 768px) {
+            .carousel-item-right.active, .carousel-item-next {
+                transform: translateX(calc(100% / 3));
+                transition: all 1s ease-in-out;
+            }
+            .carousel-item-left.active, .carousel-item-prev {
+                transform: translateX(calc(-100% / 3));
+                transition: all 1s ease-in-out;
+            }
+            .carousel-item-right, .carousel-item-left{ 
+                transform: translateX(0);
+                transition: all 1s ease-in-out;
+            }
+        }
+        .carousel-item.active {
+            z-index: 2;
+            @extend .bg-primary;
+        }
+        .carousel-item {
+            transition: all 1s ease-in-out;
+            .row {
+                @extend .m-0;
+            }
+        }
+    }
+}

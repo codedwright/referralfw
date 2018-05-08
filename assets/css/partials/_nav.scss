@@ -1,5 +1,5 @@
 nav {
-    background: #333;
+    background: $dark;
     @include media-breakpoint-up(lg) {
         z-index: 300;
         background-color: transparent;
@@ -21,7 +21,7 @@ nav {
         }
     }
     ul {
-        background: #333!important;
+        background: $dark!important;
         list-style-type: none;
         margin: 0;
         @include media-breakpoint-up(lg) {
@@ -30,7 +30,7 @@ nav {
         li {
             width: 100%;
             height: auto;
-            border-top: 1px solid #ccc;
+            border-top: 1px solid $light;
             min-height: 50px;
             position: relative;
             display: block;
@@ -116,7 +116,7 @@ nav {
             }
 
             &:last-child {
-                border-bottom: 1px solid #ccc;
+                border-bottom: 1px solid $light;
                 @include media-breakpoint-up(lg) { 
                     border: none;
                 }
@@ -141,7 +141,7 @@ nav {
     width: 50px;
     line-height: 50px;
     text-align: center;
-    border-left: 1px solid #ccc;
+    border-left: 1px solid $light;
     transition: all .25s ease-in-out;
     &:before {
         content: '\25BC';
