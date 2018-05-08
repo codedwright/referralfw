@@ -80,34 +80,36 @@ nav {
     }
 }
 
-nav {
+nav  {
     > ul {
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
         transition: 0.3s;
         &:hover {
             box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
         }
-        > li {
-            > ul {
-                @include media-breakpoint-up(lg) { 
-                    z-index: 275;
-                }
-                > li {
-                    > a {
-                        
-                        @include media-breakpoint-down(md) { //down only
-                            padding: 0 50px 0 36px;
-                        }
+        > div {
+            > li {
+                > ul {
+                    @include media-breakpoint-up(lg) { 
+                        z-index: 275;
                     }
-
-                    ul > {
-                        @include media-breakpoint-up(lg) { 
-                            z-index: 250;
+                    > li {
+                        > a {
+                            
+                            @include media-breakpoint-down(md) { //down only
+                                padding: 0 50px 0 36px;
+                            }
                         }
-                        li {
-                            > a {
-                                @include media-breakpoint-down(md) { //down only
-                                    padding: 0 50px 0 72px;
+    
+                        ul > {
+                            @include media-breakpoint-up(lg) { 
+                                z-index: 250;
+                            }
+                            li {
+                                > a {
+                                    @include media-breakpoint-down(md) { //down only
+                                        padding: 0 50px 0 72px;
+                                    }
                                 }
                             }
                         }
