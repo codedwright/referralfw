@@ -20,6 +20,7 @@ require_once('inc/referral_nav_walker.php');
 require_once('inc/referral_submenu_walker.php');
 require_once('inc/referral_playlist_taxonomy.php');
 require_once('inc/referral_meta_box_dropdown.php');
+require_once('inc/referral_frontpage_meta_box.php');
 require_once('inc/referral_faq_meta_box.php');
 require_once('inc/referral_gallery_meta_box.php');
 require_once('inc/referral_gallery_generator.php');

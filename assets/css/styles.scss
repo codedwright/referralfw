@@ -40,7 +40,7 @@
 // @include media-breakpoint-up(md) { ... }
 // @include media-breakpoint-up(lg) { ... }
 // @include media-breakpoint-up(xl) { ... }
-
+@import 'partials/theme';
 @import '../../node_modules/bootstrap/scss/bootstrap';
 @import 'partials/demo';
 @import 'partials/icons';
@@ -48,11 +48,13 @@
 @import 'partials/offcanvas';
 @import 'partials/nav';
 @import 'partials/main';
+@import 'partials/testimonials';
+@import 'partials/guides';
 
 $primary: #ED1C24;
 
 body {
-    color: #fff;
+    // color: #fff;
     font-weight: 300;
     font-family: 'Lato', Calibri, Arial, sans-serif;
 }
@@ -70,10 +72,10 @@ body {
         top: 1px;
         left: 1px;
     }
-    :hover  {
-        background-color: #d9534f;
-        border:5px solid #d9534f;
-    }
+    // :hover  {
+    //     background-color: #d9534f;
+    //     border:5px solid #d9534f;
+    // }
     @include media-breakpoint-up(md) { 
         width: 100%;
     }
