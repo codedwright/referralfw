@@ -1,3 +1,4 @@
+<?php /* Template Name: Frontpage Template */ ?>
 <?php get_header(); ?>
 <main>
     <?php get_template_part('template-parts/frontpage', 'introduction'); ?>
