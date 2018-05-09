@@ -41,7 +41,7 @@ function custom_gallery_grid($output = '', $attrs, $instance) {
     $galleryID = ( $instance < 10 ) ? 'gallery-0' . $instance : 'gallery-' . $instance;
     $gallery = '
         <section class="' . $galleryID . '">
-        <div class="row">';
+        <div class="row py-2 align-items-center justify-content-center">';
     $i = 0; // Counter for the loop.
     foreach ($images as $image) {
         if ($i%$columns == 0 && $i > 0) { // Closing previous `row` and startin the next one.
@@ -72,7 +72,7 @@ function custom_gallery_grid($output = '', $attrs, $instance) {
             default: // By default there is no `link` and the thumb is linking to attachment page.
                 $galleryLinkAttrs = array( // More attributes can be added, only `href` is required.
                 'href'  => get_attachment_link($image), // Link to image file attachment page.
-                // 'title' => '',
+                'target'       => '_blank',  // Set target to open in new tab/window.
                 // 'class' => '',
                 // 'id'    => ''
                 );
@@ -80,7 +80,7 @@ function custom_gallery_grid($output = '', $attrs, $instance) {
         }
         $gallery .= '
             <div class="'.$col_class.'">' .
-            '<figure class="figure"' .
+            '<figure class="figure">' .
                 custom_gallery_item($gallerySrc[0], $galleryAlt, $galleryLinkAttrs) .
             '<figcaption class="figure-caption text-center">' .
             $galleryCaption . 
