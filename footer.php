@@ -38,7 +38,7 @@
                 <div class="row">
                     <div class="col">
                         <h6 class="small text-uppercase">
-                            <a class="pr-3" href="#">login</a> | <a class="pl-3" href="#">Networking Partners</a>
+                            <a class="pr-3" href="/wp-login.php">login</a> | <a class="pl-3" href="/partner">Networking Partners</a>
                         </h6>
                     </div>
                 </div>
