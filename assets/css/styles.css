@@ -477,7 +477,7 @@ mark,
   content: "\2014 \00A0";
 }
 
-.img-fluid {
+.img-fluid, main img {
   max-width: 100%;
   height: auto;
 }
@@ -5909,7 +5909,7 @@ button.bg-dark:focus {
   display: table-cell !important;
 }
 
-.d-flex {
+.d-flex, main img {
   display: flex !important;
 }
 
@@ -7152,7 +7152,8 @@ button.bg-dark:focus {
 }
 
 .mr-auto,
-.mx-auto {
+.mx-auto,
+main img {
   margin-right: auto !important;
 }
 
@@ -7162,7 +7163,8 @@ button.bg-dark:focus {
 }
 
 .ml-auto,
-.mx-auto {
+.mx-auto,
+main img {
   margin-left: auto !important;
 }
 
@@ -9216,6 +9218,12 @@ body {
   /*to counter act the pills for the slideshow*/
 }
 
+@media (min-width: 992px) {
+  .offcanvas .backdrop {
+    display: none;
+  }
+}
+
 .offcanvas.active .backdrop {
   visibility: visible;
   opacity: 1;
@@ -9233,21 +9241,16 @@ body {
   width: 100%;
 }
 
-.offcanvas-right .sidebar-offcanvas {
-  right: -100%;
-  /* 12 columns */
-}
-
-@media (min-width: 992px) {
-  .offcanvas-right .sidebar-offcanvas {
-    right: 0;
-  }
-}
-
 .offcanvas-right.active {
   right: 85%;
   /* 6 columns */
   width: 100%;
+}
+
+@media (min-width: 992px) {
+  .offcanvas-right.active {
+    right: 0;
+  }
 }
 
 .offcanvas-right.active .dropdown.active + .children {
@@ -9258,6 +9261,23 @@ body {
   right: -85%;
   /* 6 columns was -85% */
   visibility: visible;
+}
+
+@media (min-width: 992px) {
+  .offcanvas-right.active .sidebar-offcanvas {
+    right: 0;
+  }
+}
+
+.offcanvas-right .sidebar-offcanvas {
+  right: -100%;
+  /* 12 columns */
+}
+
+@media (min-width: 992px) {
+  .offcanvas-right .sidebar-offcanvas {
+    right: 0;
+  }
 }
 
 .offcanvas-left {
@@ -9287,7 +9307,6 @@ body {
   top: 0;
   width: 85%;
   /* 6 columns */
-  transition: all .25s ease-in-out;
   padding: 0;
   margin: 0;
   height: 100%;
@@ -9296,8 +9315,7 @@ body {
 
 @media (min-width: 992px) {
   .sidebar-offcanvas {
-    visibility: inherit;
-    transition: all .25s ease-in-out;
+    visibility: visible;
     position: relative;
     width: 100%;
     min-height: 1px;
@@ -9682,43 +9700,6 @@ body {
   display: none !important;
 }
 
-.features > .row {
-  max-height: 500px;
-}
-
-@media (min-width: 1200px) {
-  .features > .row {
-    max-height: auto;
-  }
-}
-
-.features > .row .youtube {
-  min-height: 150px;
-  overflow-y: hidden;
-}
-
-.features > .row .youtube:-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: #F5F5F5;
-}
-
-.features > .row .youtube:-webkit-scrollbar {
-  width: 10px;
-  background-color: #F5F5F5;
-}
-
-.features > .row .youtube:-webkit-scrollbar-thumb {
-  background-color: #000000;
-  border: 2px solid #555555;
-}
-
-@media (min-width: 576px) {
-  .features > .row .youtube {
-    overflow-y: auto;
-  }
-}
-
 .marketing p {
   font-size: .85rem;
 }
@@ -9734,6 +9715,30 @@ body {
 
 header a:hover {
   text-decoration: none;
+}
+
+main a {
+  font-weight: 400;
+  color: #34495e;
+  background-color: transparent;
+}
+
+main a:hover {
+  color: #19232d;
+  text-decoration: underline;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+main a:focus {
+  text-decoration: underline;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+main a:disabled {
+  color: #6c757d;
+  pointer-events: none;
 }
 
 /*# sourceMappingURL=styles.css.map */

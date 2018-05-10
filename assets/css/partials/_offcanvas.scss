@@ -36,10 +36,12 @@ body {
         background: rgba(0, 0, 0, 0.95);
         z-index: 16;
         /*to counter act the pills for the slideshow*/
+        @include media-breakpoint-up(lg) { 
+            display: none;
+        }
     }
 
     &.active {
-        
         .backdrop {
             visibility: visible;
             opacity: 1;
@@ -61,18 +63,13 @@ body {
         }
     }
 
-    .sidebar-offcanvas {
-        right: -100%;
-        /* 12 columns */
-        @include media-breakpoint-up(lg) { 
-            right: 0;
-        }
-    }
-
     &.active {
         right: 85%;
         /* 6 columns */
         width: 100%;
+        @include media-breakpoint-up(lg) { 
+            right: 0;
+        }
 
         .dropdown {
             &.active{
@@ -82,12 +79,25 @@ body {
             }
         }
 
-        .sidebar-offcanvas {
+        .sidebar-offcanvas { //bar
             right: -85%;
             /* 6 columns was -85% */
             visibility: visible;
+            @include media-breakpoint-up(lg) { 
+                right: 0;
+            }
         }
     }
+
+    .sidebar-offcanvas {
+        right: -100%;
+        /* 12 columns */
+        @include media-breakpoint-up(lg) { 
+            right: 0;
+        }
+    }
+
+    
 }
 .offcanvas-left {
     left: 0;
@@ -115,14 +125,13 @@ body {
     top: 0;
     width: 85%;
     /* 6 columns */
-    transition: all .25s ease-in-out;
     padding: 0;
     margin: 0;
     height: 100%;
     z-index: 17;
     @include media-breakpoint-up(lg) { 
-        visibility: inherit;
-        transition: all .25s ease-in-out;
+        visibility: visible;
+        // transition: all .25s ease-in-out;
         position: relative;
         width: 100%;
         min-height: 1px;
