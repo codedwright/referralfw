@@ -38,16 +38,20 @@ HTML;
         $body = '';
         global $post;
         $data = get_post_meta($post->ID, "referral-frontpage-meta-box", true);
-        $count = 0;
-        if (count($data['video']) > 0){
-            foreach((array)$data['video'] as $video ){
-                if (isset($video['url'])){
-                    $body .= referral_frontpage_video_testimonial_helper_template($count, $video['url']);
-                    $count++;
+        if(isset($data['video'])) {
+            $count = 0;
+            if (count($data['video']) > 0){
+                foreach((array)$data['video'] as $video ){
+                    if (isset($video['url'])){
+                        $body .= referral_frontpage_video_testimonial_helper_template($count, $video['url']);
+                        $count++;
+                    }
                 }
+            } else {
+                $body = referral_frontpage_video_testimonial_helper_template( '0', '' );
             }
         } else {
-            $body = referral_frontpage_video_testimonial_helper_template( '0' );
+            $body = referral_frontpage_video_testimonial_helper_template( '0', '' );
         }
         $label = __('Add Video Testimonial');
         $footer = <<<HTML

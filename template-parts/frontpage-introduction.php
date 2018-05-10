@@ -8,7 +8,8 @@
         $frontpage_introduction_title = '';
         $frontpage_introduction_description = 'You need to fill out the information section on your frontpage template.';
         $frontpage_introduction_video = 'CyMOFYYzVcc';
-    }        
+    }
+    if(empty($data['introduction']['video'])) $frontpage_introduction_video = 'CyMOFYYzVcc';        
         $frontpage_introduction = <<<HTML
 <div class="bg-light">
     <div class="container">

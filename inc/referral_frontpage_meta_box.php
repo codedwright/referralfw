@@ -12,7 +12,10 @@
         $nonce = wp_nonce_field( basename( __FILE__ ), 'referral_frontpage_nonce' );
         // if (count($data) > 0){
         //     foreach((array)$data as $frontpage ){
-                if (isset($frontpage['introduction']) || isset($frontpage['estimate']) || isset($frontpage['guides']) ){
+            $bool_introduction = isset($frontpage['introduction']['title'], $frontpage['introduction']['description'], $frontpage['introduction']['video']);
+            $bool_guides = isset($frontpage['guides']['description'], $frontpage['guides']['linked']);
+            $bool_estimate = isset($frontpage['estimate']);
+                if ($bool_introduction || $bool_estimate || $bool_guides ) {
                     $introduction = referral_frontpage_introduction_template($frontpage['introduction']['title'], $frontpage['introduction']['description'], $frontpage['introduction']['video']);
                     $estimate = referral_frontpage_estimate_template($frontpage['estimate']);
                     $guides = referral_frontpage_guides_template($frontpage['guides']['description'], $frontpage['guides']['linked']);            

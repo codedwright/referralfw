@@ -51,12 +51,16 @@ HTML;
         global $post;
         $data = get_post_meta($post->ID, "referral-frontpage-meta-box", true);
         $count = 0;
-        if (count($data['written']) > 0){
-            foreach((array)$data['written'] as $written ){
-                if (isset($written['name']) || isset($written['text'])){
-                    $body .= referral_frontpage_written_testimonial_helper_template($count, $written['name'], $written['text']);
-                    $count++;
+        if(isset($data['written'])) {    
+            if (count($data['written']) > 0){
+                foreach((array)$data['written'] as $written ){
+                    if (isset($written['name']) || isset($written['text'])){
+                        $body .= referral_frontpage_written_testimonial_helper_template($count, $written['name'], $written['text']);
+                        $count++;
+                    }
                 }
+            } else {
+                $body = referral_frontpage_written_testimonial_helper_template( '0', '', '');
             }
         } else {
             $body = referral_frontpage_written_testimonial_helper_template( '0', '', '');
