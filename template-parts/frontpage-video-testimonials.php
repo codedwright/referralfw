@@ -45,7 +45,7 @@ HTML;
             $frontpage_video_body = 'You need to add more video testimonials to your frontpage template.';
         }
     } else {
-        $frontpage_video_body = 'You need to 3 or more video testimonials to your frontpage template.';
+        $frontpage_video_body = 'You need to add 3 or more video testimonials to your frontpage template.';
     }
     
     function frontpage_video_template($url1 = '', $url2 = '', $url3 = '', $active = '') {
