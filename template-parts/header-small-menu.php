@@ -44,61 +44,66 @@
             </div>
         </div>
         <ul class="p-0">
-            <div class="container px-0 px-md-4">
+            <div class="container px-0 px-lg-4">
             <?php
                 // referralfw.com navigation
-                //
-                // wp_list_pages(array(
-                //     'sort_column' => 'menu_order',
-                //     'title_li'    => '',
-                //     'child_of'    => '',
-                //     'exclude'     => '',
-                //     'walker'      => new Referral_Nav_Walker()
-                // ));
-                //
-                
-                // micro landing pages navigation
-                $args = array(
-                    'timeout'     => 30,
-                    'redirection' => 5,
-                    'httpversion' => '1.0',
-                    'user-agent'  => 'WordPress/' . $wp_version . '; ' . home_url(),
-                    'blocking'    => true,
-                    'headers'     => array(),
-                    'cookies'     => array(),
-                    'body'        => null,
-                    'compress'    => false,
-                    'decompress'  => true,
-                    'sslverify'   => true,
-                    'stream'      => false,
-                    'filename'    => null
-                ); 
-
-                $response = wp_remote_get('http://referralfw.com/navigation/', $args);
-
-                if ( is_array( $response ) ) {
-                    $header = $response['headers']; // array of http header lines
-                    $body = $response['body']; // use the content
-                    echo $body;
+                if(get_home_url() == 'http://referralfw.com') {
+                    wp_list_pages(array(
+                        'sort_column' => 'menu_order',
+                        'title_li'    => '',
+                        'child_of'    => '',
+                        'exclude'     => '',
+                        'walker'      => new Referral_Nav_Walker()
+                    ));
+                    echo "hi";
                 } else {
-                    if( is_wp_error( $response ) ) {
-                        echo $response->get_error_message();
+                    // micro landing pages navigation
+                    $args = array(
+                        'timeout'     => 30,
+                        'redirection' => 5,
+                        'httpversion' => '1.0',
+                        'user-agent'  => 'WordPress/' . $wp_version . '; ' . home_url(),
+                        'blocking'    => true,
+                        'headers'     => array(),
+                        'cookies'     => array(),
+                        'body'        => null,
+                        'compress'    => false,
+                        'decompress'  => true,
+                        'sslverify'   => true,
+                        'stream'      => false,
+                        'filename'    => null
+                    ); 
+
+                    $response = wp_remote_get('http://referralfw.com/navigation/', $args);
+
+                    if ( is_array( $response ) ) {
+                        $header = $response['headers']; // array of http header lines
+                        $body = $response['body']; // use the content
+                        echo $body;
+                    } else {
+                        if( is_wp_error( $response ) ) {
+                            echo $response->get_error_message();
+                        }
                     }
                 }
+                
+                
+                
+                
             ?>
-                <div class="float-right d-none d-md-inline-flex text-light">
+                <div class="float-right d-none d-lg-inline-flex text-light">
                     <div class="col px-1">
-                        <a href="#">
+                        <a class="text-light btn-link" href="https://www.facebook.com/ReferralCleaningandRestoration" target="_blank">
                             <i class="fab fa-facebook-f"></i>
                         </a>
                     </div>
                     <div class="col px-1">
-                        <a href="#">
-                            <i class="fab fa-google"></i>
+                        <a class="text-light btn-link" href="https://www.instagram.com/referralcleaningandrestoration/" target="_blank">
+                            <i class="fab fa-instagram"></i>
                         </a>
                     </div>
                     <div class="col px-1">
-                        <a href="#">
+                        <a class="text-light btn-link" href="https://www.youtube.com/user/Referral77" target="_blank">
                             <i class="fab fa-youtube"></i>
                         </a>
                     </div>
