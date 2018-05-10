@@ -42,7 +42,7 @@ HTML;
             $frontpage_written_body = 'You need to add more written testimonials to your frontpage template.';
         }
     } else {
-        $frontpage_written_body = 'You need to 3 or more written testimonials to your frontpage template.';
+        $frontpage_written_body = 'You need to add 3 or more written testimonials to your frontpage template.';
     }
     
     function frontpage_written_template($name1 = '', $text1 = '', $name2 = '', $text2 = '', $active = '') {
