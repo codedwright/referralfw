@@ -55,7 +55,6 @@
                         'exclude'     => '',
                         'walker'      => new Referral_Nav_Walker()
                     ));
-                    echo "hi";
                 } else {
                     // micro landing pages navigation
                     $args = array(
