@@ -6,7 +6,7 @@
 <div class="bg-light">
     <main class="bg-light container py-5">
         <div class="row">
-            <article class="page col col-lg-8 pl-lg-5">
+            <article class="col-lg-8">
                 <h1 class="display-4">
                     <?php the_title(); ?>
                 </h1>
