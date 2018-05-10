@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header(); ?><!-- home.php -->
 <main>
     <?php get_template_part('template-parts/frontpage', 'introduction'); ?>
     <?php get_template_part('template-parts/frontpage', 'services'); ?>
