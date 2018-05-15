@@ -9717,6 +9717,35 @@ header a:hover {
   text-decoration: none;
 }
 
+.card-body.d-flex p, main img.card-body p {
+  margin: 0;
+}
+
+.card-img-right {
+  max-width: none;
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.h-250 {
+  height: 250px;
+}
+
+@media (min-width: 768px) {
+  .h-md-250 {
+    height: 250px;
+  }
+}
+
+.box-shadow:hover {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
 main a {
   font-weight: 400;
   color: #34495e;
@@ -9734,6 +9763,7 @@ main a:focus {
   text-decoration: underline;
   border-color: transparent;
   box-shadow: none;
+  color: #19232d;
 }
 
 main a:disabled {
