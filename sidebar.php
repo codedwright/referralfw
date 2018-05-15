@@ -7,9 +7,6 @@
     <main class="bg-light container py-5">
         <div class="row">
             <article class="col-lg-8">
-                <h1 class="display-4">
-                    <?php the_title(); ?>
-                </h1>
                 <?php the_content(); ?>
             </article>
             <div class="col-4 d-none d-lg-block py-3 px-lg-4">
