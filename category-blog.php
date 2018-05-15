@@ -1,4 +1,9 @@
-<?php /* Template Name: Blog Archive */ ?>
+<?php 
+/* 
+// Template Name: Blog Archive
+// https://wp.smashingmagazine.com/2012/05/wordpress-shortcodes-complete-guide/
+*/ 
+?>
 <?php get_header(); ?><!-- category-blog.php -->
 <?php if(have_posts()) : ?>
 <div class="bg-light">
@@ -9,7 +14,7 @@
             </div>
         </div>
 <?php 
-    $my_query = new WP_Query('post_type=post&category=blog&nopaging=1');
+    $my_query = new WP_Query('post_type=post&category_name=blog&nopaging=1');
     $counter = 1;
     if($my_query->have_posts()) {
         while($my_query->have_posts() && $counter <= 7) {
