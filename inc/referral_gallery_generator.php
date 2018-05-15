@@ -45,7 +45,7 @@ function custom_gallery_grid($output = '', $attrs, $instance) {
     $i = 0; // Counter for the loop.
     foreach ($images as $image) {
         if ($i%$columns == 0 && $i > 0) { // Closing previous `row` and startin the next one.
-            $gallery .= '</div><div class="row">';
+            $gallery .= '</div><div class="row py-2 align-items-center justify-content-center">';
         }
         // Thumbnail `src` and `alt` attributes.
         $gallerySrc = wp_get_attachment_image_src( $image, $gallerySize );
@@ -56,7 +56,7 @@ function custom_gallery_grid($output = '', $attrs, $instance) {
         // Determine where to the gallery thumbnail is linking (set via WordPress gallery panel).
         switch($attrs['link']) {
             case 'file':
-                $galleryLinkImg   = wp_get_attachment_image_src( $image, 'large' ); // Take the `full` or `large` image url.
+                $galleryLinkImg   = wp_get_attachment_image_src( $image, 'full' ); // Take the `full` or `large` image url.
                 $galleryLinkAttrs = array( // More attributes can be added, only `href` is required.
                 'href'         => $galleryLinkImg[0], // Link to original image file.
                 'data-gallery' => 'gallery', // Set some data-attribute if it is needed.
