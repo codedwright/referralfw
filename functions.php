@@ -38,6 +38,7 @@ require_once('inc/referral_frontpage_meta_box.php');
 require_once('inc/referral_faq_meta_box.php');
 require_once('inc/referral_gallery_meta_box.php');
 require_once('inc/referral_gallery_generator.php');
+require_once('inc/referral_team_meta_box.php');
 
 function add_theme_scripts() {
     wp_enqueue_style( 'styles', get_template_directory_uri() . '/assets/css/styles.css');
