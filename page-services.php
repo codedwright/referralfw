@@ -22,7 +22,7 @@
                                         Water Damage Remediation
                                     </h3>
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional content.
+                                        It is disarming to step from your basement stairs and into several inches of standing water. Our emergency service is available 24/7. We can guide you through each step of the process.
                                     </p>
                                 </div>
                                 <div class="m-0">
@@ -39,7 +39,7 @@
                                         Carpet Cleaning
                                     </h3>
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional content.
+                                        Cleaning carpet may seem like a simple task, but with all the variables of fibers and soils, you need a company with superior training and experience to leave your carpet clean and dry.
                                     </p>
                                 </div>
                                 <div class="m-0">
@@ -58,7 +58,7 @@
                                         Tile &amp; Grout Cleaning
                                     </h3>
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional content.
+                                        We're sure you mop your tile regularly, but have you ever thought about how much soil and liquid have penetrated your porous grout? Perhaps you've forgetten how light the grout used to be.
                                     </p>
                                 </div>
                                 <div class="m-0">
@@ -75,7 +75,7 @@
                                         Hardwood Cleaning
                                     </h3>
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional content.
+                                        Hardwood floors are gorgeous, but require maintenance to keep their beauty. While they occasionally need refinished, routine cleaning lengthens the time between refinishings.
                                     </p>
                                 </div>
                                 <div class="m-0">
@@ -94,7 +94,7 @@
                                         Oriental &amp; Area Rug Cleaning
                                     </h3>
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional content.
+                                        Whether we're cleaning them in your home or in our shop, you can trust that we will treat your rugs with care. We are an approved service provider by the carpet and rug institute.
                                     </p>
                                 </div>
                                 <div class="m-0">
@@ -111,7 +111,7 @@
                                         Upholstery Cleaning
                                     </h3>
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional content.
+                                        How often do you dust your bookshelves? Did you know that your upholstered furniture collects just as much dust plus oils and hair from your body and your pets?
                                     </p>
                                 </div>
                                 <div class="m-0">
@@ -130,7 +130,7 @@
                                         Pet Urine Stain &amp; Odor Removal
                                     </h3>
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional content.
+                                        Our pets are family. But let's face it, they're not the cleanest of critters. Oils, hair, drool, and the occasional accidents on the floor. We specialize in removing pet stains and odors.
                                     </p>
                                 </div>
                                 <div class="m-0">
@@ -147,7 +147,7 @@
                                         Vehicle, Automobile, Boat, Airplane &amp; RV Cleaning
                                     </h3>
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional content.
+                                        The average American spends an incredible 37,935 hours of their life driving. Not to mention the number of hours spent as a passenger. Life happens in your vehicles, and life can be messy.
                                     </p>
                                 </div>
                                 <div class="m-0">
@@ -166,7 +166,7 @@
                                         Mattress Cleaning
                                     </h3>
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional content.
+                                        Maintaining a clean mattress is important for your health, especially if you experience allergies. Whether it's maintenace cleaning or taking care of bed accidents, we can help.
                                     </p>
                                 </div>
                                 <div class="m-0">
@@ -183,7 +183,7 @@
                                         Commercial Cleaning
                                     </h3>
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional content.
+                                        Business is all about investment. The flooring in your commercial setting is a company investment. Get the best return with proper maintenace by our experienced team.
                                     </p>
                                 </div>
                                 <div class="m-0">
@@ -202,7 +202,7 @@
                                         Mold Remediation
                                     </h3>
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional content.
+                                        The presence of mold can feel as scary as an alien invasion. We keep safety in mind as we find the source, remove the moisture, and remove the contomination. 
                                     </p>
                                 </div>
                                 <div class="m-0">
@@ -219,7 +219,7 @@
                                         Scotchguard Carpet &amp; Fabric Protection
                                     </h3>
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional content.
+                                        Thanks to some fabulous chemists, we can protect your newly cleaned carpet and fabrics for greater longevity. Just think of Scotchgard as a magic force field of protection.
                                     </p>
                                 </div>
                                 <div class="m-0">
@@ -238,7 +238,7 @@
                                         Allergy Relief
                                     </h3>
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional content.
+                                        We know that life with allergies can be miserable. With our specialized allergy treatment products and our focus on fast drying, we can help alleviate the allergens in your home.
                                     </p>
                                 </div>
                                 <div class="m-0">
@@ -255,7 +255,7 @@
                                         Products
                                     </h3>
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional content.
+                                        We can't keep all our secrets to ourselves! Discover these flooring and upholstery care items and see for yourself the difference they can make in prlonging the life of your home.
                                     </p>
                                 </div>
                                 <div class="m-0">
