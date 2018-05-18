@@ -15,7 +15,7 @@
                 </div>
                 <div class="row mb-2">
                     <div class="col-md-6">
-                        <a class="card-link" href="http://referralfw.com/services/waterdamage/">
+                        <a class="card-link" href="https://referralfw.com/services/waterdamage/">
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">
@@ -26,13 +26,13 @@
                                     </p>
                                 </div>
                                 <div class="m-0">
-                                    <img class="card-img-right flex-auto d-none d-lg-block" src="http://via.placeholder.com/200x250" />
+                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://via.placeholder.com/200x250" />
                                 </div>
                             </div>
                         </a>
                     </div>
                     <div class="col-md-6">
-                        <a class="card-link" href="http://referralfw.com/services/carpet/">
+                        <a class="card-link" href="https://referralfw.com/services/carpet/">
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">
@@ -43,7 +43,7 @@
                                     </p>
                                 </div>
                                 <div class="m-0">
-                                    <img class="card-img-right flex-auto d-none d-lg-block" src="http://via.placeholder.com/200x250" />
+                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://via.placeholder.com/200x250" />
                                 </div>
                             </div>
                         </a>
@@ -51,7 +51,7 @@
                 </div>
                 <div class="row mb-2">
                     <div class="col-md-6">
-                        <a class="card-link" href="http://referralfw.com/services/tile/">
+                        <a class="card-link" href="https://referralfw.com/services/tile/">
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">
@@ -62,13 +62,13 @@
                                     </p>
                                 </div>
                                 <div class="m-0">
-                                    <img class="card-img-right flex-auto d-none d-lg-block" src="http://via.placeholder.com/200x250" />
+                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://via.placeholder.com/200x250" />
                                 </div>
                             </div>
                         </a>
                     </div>
                     <div class="col-md-6">
-                        <a class="card-link" href="http://referralfw.com/services/wood/">
+                        <a class="card-link" href="https://referralfw.com/services/wood/">
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">
@@ -79,7 +79,7 @@
                                     </p>
                                 </div>
                                 <div class="m-0">
-                                    <img class="card-img-right flex-auto d-none d-lg-block" src="http://via.placeholder.com/200x250" />
+                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://via.placeholder.com/200x250" />
                                 </div>
                             </div>
                         </a>
@@ -87,7 +87,7 @@
                 </div>
                 <div class="row mb-2">
                     <div class="col-md-6">
-                        <a class="card-link" href="http://referralfw.com/services/rug/">
+                        <a class="card-link" href="https://referralfw.com/services/rug/">
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">
@@ -98,13 +98,13 @@
                                     </p>
                                 </div>
                                 <div class="m-0">
-                                    <img class="card-img-right flex-auto d-none d-lg-block" src="http://via.placeholder.com/200x250" />
+                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://via.placeholder.com/200x250" />
                                 </div>
                             </div>
                         </a>
                     </div>
                     <div class="col-md-6">
-                        <a class="card-link" href="http://referralfw.com/services/upholstery/">
+                        <a class="card-link" href="https://referralfw.com/services/upholstery/">
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">
@@ -115,7 +115,7 @@
                                     </p>
                                 </div>
                                 <div class="m-0">
-                                    <img class="card-img-right flex-auto d-none d-lg-block" src="http://via.placeholder.com/200x250" />
+                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://via.placeholder.com/200x250" />
                                 </div>
                             </div>
                         </a>
@@ -123,7 +123,7 @@
                 </div>
                 <div class="row mb-2">
                     <div class="col-md-6">
-                        <a class="card-link" href="http://referralfw.com/services/pet/">
+                        <a class="card-link" href="https://referralfw.com/services/pet/">
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">
@@ -134,13 +134,13 @@
                                     </p>
                                 </div>
                                 <div class="m-0">
-                                    <img class="card-img-right flex-auto d-none d-lg-block" src="http://via.placeholder.com/200x250" />
+                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://via.placeholder.com/200x250" />
                                 </div>
                             </div>
                         </a>
                     </div>
                     <div class="col-md-6">
-                        <a class="card-link" href="http://referralfw.com/services/vehicle/">
+                        <a class="card-link" href="https://referralfw.com/services/vehicle/">
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">
@@ -151,7 +151,7 @@
                                     </p>
                                 </div>
                                 <div class="m-0">
-                                    <img class="card-img-right flex-auto d-none d-lg-block" src="http://via.placeholder.com/200x250" />
+                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://via.placeholder.com/200x250" />
                                 </div>
                             </div>
                         </a>
@@ -159,7 +159,7 @@
                 </div>
                 <div class="row mb-2">
                     <div class="col-md-6">
-                        <a class="card-link" href="http://referralfw.com/services/mattress/">
+                        <a class="card-link" href="https://referralfw.com/services/mattress/">
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">
@@ -170,13 +170,13 @@
                                     </p>
                                 </div>
                                 <div class="m-0">
-                                    <img class="card-img-right flex-auto d-none d-lg-block" src="http://via.placeholder.com/200x250" />
+                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://via.placeholder.com/200x250" />
                                 </div>
                             </div>
                         </a>
                     </div>
                     <div class="col-md-6">
-                        <a class="card-link" href="http://referralfw.com/services/commercial/">
+                        <a class="card-link" href="https://referralfw.com/services/commercial/">
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">
@@ -187,7 +187,7 @@
                                     </p>
                                 </div>
                                 <div class="m-0">
-                                    <img class="card-img-right flex-auto d-none d-lg-block" src="http://via.placeholder.com/200x250" />
+                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://via.placeholder.com/200x250" />
                                 </div>
                             </div>
                         </a>
@@ -195,7 +195,7 @@
                 </div>
                 <div class="row mb-2">
                     <div class="col-md-6">
-                        <a class="card-link" href="http://referralfw.com/services/mold/">
+                        <a class="card-link" href="https://referralfw.com/services/mold/">
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">
@@ -206,13 +206,13 @@
                                     </p>
                                 </div>
                                 <div class="m-0">
-                                    <img class="card-img-right flex-auto d-none d-lg-block" src="http://via.placeholder.com/200x250" />
+                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://via.placeholder.com/200x250" />
                                 </div>
                             </div>
                         </a>
                     </div>
                     <div class="col-md-6">
-                        <a class="card-link" href="http://referralfw.com/services/scotchgard/">
+                        <a class="card-link" href="https://referralfw.com/services/scotchgard/">
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">
@@ -223,7 +223,7 @@
                                     </p>
                                 </div>
                                 <div class="m-0">
-                                    <img class="card-img-right flex-auto d-none d-lg-block" src="http://via.placeholder.com/200x250" />
+                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://via.placeholder.com/200x250" />
                                 </div>
                             </div>
                         </a>
@@ -231,7 +231,7 @@
                 </div>
                 <div class="row mb-2">
                     <div class="col-md-6">
-                        <a class="card-link" href="http://referralfw.com/services/allergy/">
+                        <a class="card-link" href="https://referralfw.com/services/allergy/">
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">
@@ -242,13 +242,13 @@
                                     </p>
                                 </div>
                                 <div class="m-0">
-                                    <img class="card-img-right flex-auto d-none d-lg-block" src="http://via.placeholder.com/200x250" />
+                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://via.placeholder.com/200x250" />
                                 </div>
                             </div>
                         </a>
                     </div>
                     <div class="col-md-6">
-                        <a class="card-link" href="http://referralfw.com/services/products/">
+                        <a class="card-link" href="https://referralfw.com/services/products/">
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">
@@ -259,7 +259,7 @@
                                     </p>
                                 </div>
                                 <div class="m-0">
-                                    <img class="card-img-right flex-auto d-none d-lg-block" src="http://via.placeholder.com/200x250" />
+                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://via.placeholder.com/200x250" />
                                 </div>
                             </div>
                         </a>

@@ -7,8 +7,8 @@
     <title><?php bloginfo('name'); ?></title>
 
     <!-- <?php bloginfo('template_url'); ?> -->
-    <link rel="shortcut icon" href="http://referralfw.com/wp-content/uploads/Referral-Cleaning-Restoration-Red-Watermark-Large.png">
-    <link rel="apple-touch-icon" href="http://referralfw.com/wp-content/uploads/Referral-Cleaning-Restoration-Red-Watermark-Large.png">
+    <link rel="shortcut icon" href="https://referralfw.com/wp-content/uploads/Referral-Cleaning-Restoration-Red-Watermark-Large.png">
+    <link rel="apple-touch-icon" href="https://referralfw.com/wp-content/uploads/Referral-Cleaning-Restoration-Red-Watermark-Large.png">
     <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
     <?php wp_head(); ?>
 </head>

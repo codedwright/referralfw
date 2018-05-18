@@ -3,7 +3,7 @@
     <nav class="col-12 sidebar-offcanvas">
         <div class="d-lg-none m-0 p-1 row">
             <a class="pt-3 col-12 col-sm-8 m-auto" href="<?php echo site_url() ?>">
-                <img class="img-fluid" src="http://referralfw.com/Referral Cleaning &amp; Restoration Logo.svg">
+                <img class="img-fluid" src="https://referralfw.com/Referral Cleaning &amp; Restoration Logo.svg">
             </a>
             <div class="m-0 p-1 row w-100 m-auto">
                 <div class="col-6 col-sm-3 my-3 justify-content-center">
@@ -26,7 +26,7 @@
                     </a>
                 </div>
                 <div class="col-6 col-sm-3 my-3 justify-content-center">
-                    <a class="p-1" href="http://www.referralfw.com/contact">
+                    <a class="p-1" href="https://www.referralfw.com/contact">
                         <div class="fa-4x p-2">
                             <i class="d-block m-auto text-center fas fa-map-marker-alt"></i>
                         </div>
@@ -34,7 +34,7 @@
                     </a>
                 </div>
                 <div class="col-6 col-sm-3 my-3 justify-content-center">
-                    <a class="p-1" href="http://www.referralfw.com/estimate">
+                    <a class="p-1" href="https://www.referralfw.com/estimate">
                         <div class="fa-4x p-2">
                             <i class="d-block m-auto text-center fas fa-pencil-alt"></i>
                         </div>
@@ -47,7 +47,7 @@
             <div class="container px-0 px-lg-4">
             <?php
                 // referralfw.com navigation
-                if(get_home_url() == 'http://referralfw.com') {
+                if(get_home_url() == 'https://referralfw.com') {
                     wp_list_pages(array(
                         'sort_column' => 'menu_order',
                         'title_li'    => '',
@@ -73,10 +73,10 @@
                         'filename'    => null
                     ); 
 
-                    $response = wp_remote_get('http://referralfw.com/navigation/', $args);
+                    $response = wp_remote_get('https://referralfw.com/navigation/', $args);
 
                     if ( is_array( $response ) ) {
-                        $header = $response['headers']; // array of http header lines
+                        $header = $response['headers']; // array of https:header lines
                         $body = $response['body']; // use the content
                         echo $body;
                     } else {

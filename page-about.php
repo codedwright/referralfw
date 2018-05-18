@@ -17,7 +17,7 @@
                 </div>
                 <div class="row mb-2">
                     <div class="col-md-6">
-                        <a class="card-link" href="http://referralfw.com/about/history/">
+                        <a class="card-link" href="https://referralfw.com/about/history/">
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">Our History</h3>
@@ -31,7 +31,7 @@
                         </a>
                     </div>
                     <div class="col-md-6">
-                        <a class="card-link" href="http://referralfw.com/about/team/">
+                        <a class="card-link" href="https://referralfw.com/about/team/">
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">The Referral Team</h3>
@@ -47,7 +47,7 @@
                 </div>
                 <div class="row mb-2">
                     <div class="col-md-6">
-                        <a class="card-link" href="http://referralfw.com/about/photo-gallery/">
+                        <a class="card-link" href="https://referralfw.com/about/photo-gallery/">
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">Photo Galleries</h3>
@@ -62,7 +62,7 @@
                         </a>
                     </div>
                     <div class="col-md-6">
-                        <a class="card-link" href="http://referralfw.com/about/community/">
+                        <a class="card-link" href="https://referralfw.com/about/community/">
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">Community Support</h3>
@@ -78,7 +78,7 @@
                 </div>
                 <div class="row mb-2">
                     <div class="col-md-6">
-                        <a class="card-link" href="http://referralfw.com/about/careers/">
+                        <a class="card-link" href="https://referralfw.com/about/careers/">
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">Career Opportunities</h3>
@@ -93,7 +93,7 @@
                         </a>
                     </div>
                     <div class="col-md-6">
-                        <a class="card-link" href="http://referralfw.com/about/trust/">
+                        <a class="card-link" href="https://referralfw.com/about/trust/">
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">Why Trust Us</h3>
@@ -110,7 +110,7 @@
                 </div>
                 <div class="row mb-2">
                     <div class="col-md-6">
-                        <a class="card-link" href="http://referralfw.com/about/blog/">
+                        <a class="card-link" href="https://referralfw.com/about/blog/">
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">Referral's Blog</h3>
@@ -125,14 +125,14 @@
                         </a>
                     </div>
                     <div class="col-md-6 d-none">
-                        <a class="card-link" href="http://referralfw.com/about/history/">
+                        <a class="card-link" href="https://referralfw.com/about/history/">
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">The Referral Team</h3>
                                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
                                 </div>
                                 <div class="m-0">
-                                    <img class="card-img-right flex-auto d-none d-lg-block" src="http://via.placeholder.com/200x250" />
+                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://via.placeholder.com/200x250" />
                                 </div>
                             </div>
                         </a>

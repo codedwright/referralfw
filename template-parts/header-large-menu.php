@@ -2,7 +2,7 @@
     <div class="row py-3 align-items-center">
         <div class="col-12 col-md-6 d-flex justify-content-center">
             <a class="" href="<?php echo site_url() ?>">
-                <img class="img-fluid" src="http://referralfw.com/Referral Cleaning &amp; Restoration Logo.svg">
+                <img class="img-fluid" src="https://referralfw.com/Referral Cleaning &amp; Restoration Logo.svg">
             </a>
         </div>
         <div class="col-12 d-none d-md-block col-md-6">
@@ -27,7 +27,7 @@
                     </a>
                 </div>
                 <div class="col-3 my-3 p-0 justify-content-center">
-                    <a href="http://www.referralfw.com/contact">
+                    <a href="https://www.referralfw.com/contact">
                         <div class="fa-4x p-2">
                             <i class="d-block m-auto text-center fas fa-map-marker-alt"></i>
                         </div>
@@ -35,7 +35,7 @@
                     </a>
                 </div>
                 <div class="col-3 my-3 p-0 justify-content-center">
-                    <a href="http://www.referralfw.com/estimate">
+                    <a href="https://www.referralfw.com/estimate">
                         <div class="fa-4x p-2">
                             <i class="d-block m-auto text-center fas fa-pencil-alt"></i>
                         </div>
