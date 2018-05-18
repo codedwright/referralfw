@@ -1,6 +1,10 @@
-<?php /* Template Name: FAQ Template */ ?>
-<?php get_header(); ?>
-<!-- page_sidebar.php -->
+<?php 
+/*
+ * Template Name: FAQ Template
+ */
+
+get_header(); ?>
+<!-- faq.php -->
 <?php if(have_posts()) : ?>
 <?php while(have_posts()) : the_post(); ?>
 <main class="p-2 p-lg-5">
