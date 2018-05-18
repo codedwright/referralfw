@@ -9670,6 +9670,69 @@ main .display-4 {
   color: #34495e;
 }
 
+.card-body.d-flex p, main img.card-body p {
+  margin: 0;
+}
+
+.card-img-right {
+  max-width: none;
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.h-250 {
+  height: 250px;
+}
+
+@media (min-width: 768px) {
+  .h-md-250 {
+    height: 250px;
+  }
+}
+
+.box-shadow:hover {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+.team iframe {
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+
+.team .certification {
+  padding: calc(0.5rem + 15px) calc(1rem + 15px);
+}
+
+.team blockquote {
+  quotes: '\201C' '\201D';
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.team blockquote:before {
+  font-family: 'Times New Roman';
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: -1.5rem;
+  line-height: 100%;
+  content: open-quote;
+  float: left;
+}
+
+.team blockquote:after {
+  font-family: 'Times New Roman';
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-right: -1.5rem;
+  line-height: 100%;
+  content: close-quote;
+  float: right;
+}
+
 body {
   font-weight: 300;
   font-family: 'Lato', Calibri, Arial, sans-serif;
@@ -9715,35 +9778,6 @@ body {
 
 header a:hover {
   text-decoration: none;
-}
-
-.card-body.d-flex p, main img.card-body p {
-  margin: 0;
-}
-
-.card-img-right {
-  max-width: none;
-  height: 100%;
-  border-radius: 0 3px 3px 0;
-}
-
-.flex-auto {
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-}
-
-.h-250 {
-  height: 250px;
-}
-
-@media (min-width: 768px) {
-  .h-md-250 {
-    height: 250px;
-  }
-}
-
-.box-shadow:hover {
-  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
 }
 
 main a {

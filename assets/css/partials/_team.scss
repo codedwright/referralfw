@@ -1,0 +1,31 @@
+.team {
+    iframe {
+        border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+    }
+    .certification {
+        padding: calc(0.5rem + 15px) calc(1rem + 15px);
+    }
+    blockquote {
+        quotes: '\201C' '\201D';
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    blockquote:before {
+        font-family: 'Times New Roman';
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-left: -1.5rem;
+        line-height: 100%;
+        content: open-quote;
+        float: left;
+    }
+    blockquote:after {
+        font-family: 'Times New Roman';
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-right: -1.5rem;
+        line-height: 100%;
+        content: close-quote;
+        float: right;
+    }
+}
