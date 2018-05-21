@@ -1,4 +1,4 @@
-.written {
+.double-slider {
     blockquote { 
         quotes: '\201C' '\201D';
         margin-left: 1.5rem;
@@ -30,7 +30,7 @@
                 transition: all 1s ease-in-out;
             }
             .carousel-item-left.active, .carousel-item-prev {
-                background: green;
+                // background: green;
                 transform: translateX(-50%);
                 transition: all 1s ease-in-out;
             }
@@ -51,7 +51,7 @@
         }
     }
 }
-.video {        
+.tripple-slider {        
     .carousel-inner {
         @media (min-width: 768px) {
             .carousel-item-right.active, .carousel-item-next {

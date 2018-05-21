@@ -8,7 +8,7 @@
         </div>
         <!-- will pause on hover -->
         <div class="row px-5 text-center">
-            <div class="video col">
+            <div class="tripple-slider col">
                 <div class="carousel slide" data-ride="carousel" data-interval="18000">
                     <div class="carousel-inner">
 HTML;
