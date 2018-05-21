@@ -4,7 +4,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -5675,15 +5675,15 @@ button.close {
   vertical-align: text-top !important;
 }
 
-.bg-primary, .video .carousel-inner .carousel-item.active {
+.bg-primary, .tripple-slider .carousel-inner .carousel-item.active {
   background-color: #34495e !important;
 }
 
-a.bg-primary:hover, .video .carousel-inner a.carousel-item.active:hover, a.bg-primary:focus, .video .carousel-inner a.carousel-item.active:focus,
+a.bg-primary:hover, .tripple-slider .carousel-inner a.carousel-item.active:hover, a.bg-primary:focus, .tripple-slider .carousel-inner a.carousel-item.active:focus,
 button.bg-primary:hover,
-.video .carousel-inner button.carousel-item.active:hover,
+.tripple-slider .carousel-inner button.carousel-item.active:hover,
 button.bg-primary:focus,
-.video .carousel-inner button.carousel-item.active:focus {
+.tripple-slider .carousel-inner button.carousel-item.active:focus {
   background-color: #22303d !important;
 }
 
@@ -5737,15 +5737,15 @@ button.bg-danger:focus {
   background-color: #bd2130 !important;
 }
 
-.bg-light, .written .carousel-inner .carousel-item.active {
+.bg-light, .double-slider .carousel-inner .carousel-item.active {
   background-color: #f8f9fa !important;
 }
 
-a.bg-light:hover, .written .carousel-inner a.carousel-item.active:hover, a.bg-light:focus, .written .carousel-inner a.carousel-item.active:focus,
+a.bg-light:hover, .double-slider .carousel-inner a.carousel-item.active:hover, a.bg-light:focus, .double-slider .carousel-inner a.carousel-item.active:focus,
 button.bg-light:hover,
-.written .carousel-inner button.carousel-item.active:hover,
+.double-slider .carousel-inner button.carousel-item.active:hover,
 button.bg-light:focus,
-.written .carousel-inner button.carousel-item.active:focus {
+.double-slider .carousel-inner button.carousel-item.active:focus {
   background-color: #dae0e5 !important;
 }
 
@@ -6854,7 +6854,7 @@ button.bg-dark:focus {
   max-height: 100% !important;
 }
 
-.m-0, .written .carousel-inner .carousel-item .row, .video .carousel-inner .carousel-item .row {
+.m-0, .double-slider .carousel-inner .carousel-item .row, .tripple-slider .carousel-inner .carousel-item .row {
   margin: 0 !important;
 }
 
@@ -9535,13 +9535,13 @@ main .display-4 {
   font-weight: 700;
 }
 
-.written blockquote {
+.double-slider blockquote {
   quotes: '\201C' '\201D';
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
 
-.written blockquote:before {
+.double-slider blockquote:before {
   font-family: 'Times New Roman';
   font-weight: bold;
   font-size: 1.5rem;
@@ -9551,7 +9551,7 @@ main .display-4 {
   float: left;
 }
 
-.written blockquote:after {
+.double-slider blockquote:after {
   font-family: 'Times New Roman';
   font-weight: bold;
   font-size: 1.5rem;
@@ -9562,49 +9562,45 @@ main .display-4 {
 }
 
 @media (min-width: 768px) {
-  .written .carousel-inner .carousel-item-right.active, .written .carousel-inner .carousel-item-next {
+  .double-slider .carousel-inner .carousel-item-right.active, .double-slider .carousel-inner .carousel-item-next {
     transform: translateX(50%);
-    transition: all 1s ease-in-out;
   }
-  .written .carousel-inner .carousel-item-left.active, .written .carousel-inner .carousel-item-prev {
-    background: green;
+  .double-slider .carousel-inner .carousel-item-left.active, .double-slider .carousel-inner .carousel-item-prev {
     transform: translateX(-50%);
-    transition: all 1s ease-in-out;
   }
-  .written .carousel-inner .carousel-item-right, .written .carousel-inner .carousel-item-left {
+  .double-slider .carousel-inner .carousel-item-right, .double-slider .carousel-inner .carousel-item-left {
     transform: translateX(0);
-    transition: all 1s ease-in-out;
   }
 }
 
-.written .carousel-inner .carousel-item.active {
+.double-slider .carousel-inner .carousel-item.active {
   z-index: 2;
 }
 
-.written .carousel-inner .carousel-item {
+.double-slider .carousel-inner .carousel-item {
   transition: all 1s ease-in-out;
 }
 
 @media (min-width: 768px) {
-  .video .carousel-inner .carousel-item-right.active, .video .carousel-inner .carousel-item-next {
+  .tripple-slider .carousel-inner .carousel-item-right.active, .tripple-slider .carousel-inner .carousel-item-next {
     transform: translateX(calc(100% / 3));
     transition: all 1s ease-in-out;
   }
-  .video .carousel-inner .carousel-item-left.active, .video .carousel-inner .carousel-item-prev {
+  .tripple-slider .carousel-inner .carousel-item-left.active, .tripple-slider .carousel-inner .carousel-item-prev {
     transform: translateX(calc(-100% / 3));
     transition: all 1s ease-in-out;
   }
-  .video .carousel-inner .carousel-item-right, .video .carousel-inner .carousel-item-left {
+  .tripple-slider .carousel-inner .carousel-item-right, .tripple-slider .carousel-inner .carousel-item-left {
     transform: translateX(0);
     transition: all 1s ease-in-out;
   }
 }
 
-.video .carousel-inner .carousel-item.active {
+.tripple-slider .carousel-inner .carousel-item.active {
   z-index: 2;
 }
 
-.video .carousel-inner .carousel-item {
+.tripple-slider .carousel-inner .carousel-item {
   transition: all 1s ease-in-out;
 }
 
