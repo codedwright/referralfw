@@ -2,16 +2,16 @@
         <div class="bg-primary">
             <div class="container">
                 <div class="row pt-3">
-                    <div class="col-6 col-md-3 col-lg-2 py-3">
+                    <div class="m-auto col-6 col-md-3 col-lg-2 py-3">
                         <img src="https://referralfw.com/wp-content/uploads/soa-logo.jpg" alt="" class="img-fluid">
                     </div>
-                    <div class="col-6 col-md-3 col-lg-2 py-3">
+                    <div class="m-auto col-6 col-md-3 col-lg-2 py-3">
                         <img src="https://referralfw.com/wp-content/uploads/iicrc.jpg" alt="" class="img-fluid">
                     </div>
-                    <div class="col-6 col-md-3 col-lg-2 py-3">
+                    <div class="m-auto col-6 col-md-3 col-lg-2 py-3">
                         <img src="https://referralfw.com/wp-content/uploads/bbb.jpg" alt="" class="img-fluid">
                     </div>
-                    <div class="col-6 col-md-3 col-lg-2 py-3">
+                    <div class="m-auto col-6 col-md-3 col-lg-2 py-3">
                         <img src="https://referralfw.com/wp-content/uploads/angies-list-ethical-services.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-12 col-lg-4 py-3 px-3 px-lg-4">
@@ -21,11 +21,11 @@
                             </div>
                         </div>
                         <div class="row align-items-center justify-content-center">
-                            <div class="col">
-                                <!-- <i class="fas fa-phone-square"></i> --> <a href="tel:2604834383">260-483-4383</a>
+                            <div class="col-sm-6 col-lg-12 col-xl-6  text-center text-sm-left text-lg-center text-xl-left">
+                                <a href="tel:2604834383">260-483-4383</a>
                             </div>
-                            <div class="col text-right">
-                                <!-- <i class="fas fa-envelope-square"></i> --> <a href="mailto:office@referralfw.com">office@referralfw.com</a>
+                            <div class="col-sm-6 col-lg-12 col-xl-6 text-center text-sm-right text-lg-center text-xl-right">
+                                <a href="mailto:office@referralfw.com">office@referralfw.com</a>
                             </div>
                         </div>
                         <div class="row">
