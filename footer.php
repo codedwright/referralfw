@@ -29,8 +29,10 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col text-right">
-                                &copy; 2018 Referral Cleaning &amp; Restoration
+                            <div class="col text-center text-sm-right">
+                                <a href="https://codedwright.com" target="_blank" class="btn p-0">
+                                    &copy; <?php echo date("Y"); ?> Referral Cleaning &amp; Restoration
+                                </a>
                             </div>
                         </div>
                     </div>
