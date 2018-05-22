@@ -1,4 +1,4 @@
-<?php get_header(); ?><!-- About -->
+<?php get_header(); ?><!-- History -->
 <?php if(have_posts()) : ?>
 <?php while(have_posts()) : the_post(); ?>
 <div class="bg-light">
@@ -19,7 +19,7 @@
                         </div>
                     </div>
                     <div class="col-lg-8 p-0">
-                        <div class="double-slider">
+                        <div class="double-slider d-lg-none">
                             <div id="history-carousel" class="carousel slide" data-ride="carousel" data-interval="10000">
                                 <div class="carousel-inner"  style="height: 17rem;">
                                     <div class="carousel-item active">
@@ -179,12 +179,18 @@
                                 <p>I would like to thank each and every client that has helped Referral get to where it is today. I thank you for your business and for referring us to your friends, family, coworkers, and neighbors. Our slogan still rings true today, “Referrals Built Our Business.”</p>
                                 <p>Sincerely,<br>Ron Falls, Founder &amp; President of Referral Cleaning &amp; Restoration Inc.</p>
                             </blockquote>
-                            <div class="row">
+                            <div class="row text-center">
                                 <div class="col-sm-6">
-                                    <img src="https://referralfw.com/wp-content/uploads/Ron-Alan-Audrey-2016-White-Background1.jpg" alt="" class="img-fluid">
+                                    <figure class="figure">
+                                        <img src="https://referralfw.com/wp-content/uploads/Ron-Alan-Audrey-2016-White-Background1.jpg" class="figure-img img-fluid rounded" alt="Ron, Alan &amp; Audrey">
+                                        <figcaption class="figure-caption">Ron, Alan &amp; Audrey</figcaption>
+                                    </figure>
                                 </div>
                                 <div class="col-sm-6">
-                                    <img src="https://referralfw.com/wp-content/uploads/Referral-2016-Fleet-Building-3.jpg" alt="" class="img-fluid">
+                                    <figure class="figure">
+                                        <img src="https://referralfw.com/wp-content/uploads/Referral-2016-Fleet-Building-3.jpg" class="figure-img img-fluid rounded" alt="Referral 2016 Fleet">
+                                        <figcaption class="figure-caption">Referral Fleet</figcaption>
+                                    </figure>
                                 </div>
                             </div>
                         </div>
@@ -192,16 +198,43 @@
                     <div class="col-lg-4 d-none d-lg-flex">
                     <!-- img.img-fluid.pb-5[src=https://via.placeholder.com/350x250]*30 -->
                         <div class="row">
-                            <div class="col">
-                                <img src=" https://referralfw.com/wp-content/uploads/History-Ron-Eric1.jpg" alt="" class="img-fluid pb-5">
-                                <img src="https://referralfw.com/wp-content/uploads/History-Business-Card-3.jpg" alt="" class="img-fluid pb-5">
-                                <img src="https://referralfw.com/wp-content/uploads/History-Business-Card-2.jpg" alt="" class="img-fluid pb-5">
-                                <img src="https://referralfw.com/wp-content/uploads/History-Business-Card-1.jpg" alt="" class="img-fluid pb-5">
-                                <img src="https://referralfw.com/wp-content/uploads/History-Referral-Humble-Beginings.jpg" alt="" class="img-fluid pb-5">                        
-                                <img src="https://referralfw.com/wp-content/uploads/History-Ron-1982.jpg" alt="" class="img-fluid pb-5">
-                                <img src="https://referralfw.com/wp-content/uploads/History-Referral-Staff.jpg" alt="" class="img-fluid pb-5">
-                                <img src="https://referralfw.com/wp-content/uploads/History-Ron-Alan-at-Bane-Clene-1988.jpg" alt="" class="img-fluid pb-5">
-                                <img src="https://referralfw.com/wp-content/uploads/History-Ron-Alan-1988.jpg" alt="" class="img-fluid pb-5">
+                            <div class="col pl-5 text-center">
+                                <figure class="figure">
+                                    <img src="https://referralfw.com/wp-content/uploads/History-Ron-Eric1.jpg" class="figure-img img-fluid rounded" alt="Ron &amp; Eric">
+                                    <figcaption class="figure-caption">Ron &amp; Eric</figcaption>
+                                </figure>
+                                <figure class="figure">
+                                    <img src="https://referralfw.com/wp-content/uploads/History-Business-Card-3.jpg" class="figure-img img-fluid rounded" alt="Business Card 3">
+                                    <figcaption class="figure-caption">Business Card 1</figcaption>
+                                </figure>
+                                <figure class="figure">
+                                    <img src="https://referralfw.com/wp-content/uploads/History-Business-Card-2.jpg" class="figure-img img-fluid rounded" alt="Business Card 2">
+                                    <figcaption class="figure-caption">Business Card 2</figcaption>
+                                </figure>
+                                <figure class="figure">
+                                    <img src="https://referralfw.com/wp-content/uploads/History-Business-Card-1.jpg" class="figure-img img-fluid rounded" alt="Business Card 1">
+                                    <figcaption class="figure-caption">Business Card 3</figcaption>
+                                </figure>
+                                <figure class="figure">
+                                    <img src="https://referralfw.com/wp-content/uploads/History-Referral-Humble-Beginings.jpg" class="figure-img img-fluid rounded" alt="Referral's Humble Beginnings">
+                                    <figcaption class="figure-caption">Referral's Humble Beginnings</figcaption>
+                                </figure>
+                                <figure class="figure">
+                                    <img src="https://referralfw.com/wp-content/uploads/History-Ron-1982.jpg" class="figure-img img-fluid rounded" alt="Ron in 1982">
+                                    <figcaption class="figure-caption">Ron in 1982</figcaption>
+                                </figure>
+                                <figure class="figure">
+                                    <img src="https://referralfw.com/wp-content/uploads/History-Referral-Staff.jpg" class="figure-img img-fluid rounded" alt="Referral Staff in 1996">
+                                    <figcaption class="figure-caption">Referral Staff in 1996</figcaption>
+                                </figure>
+                                <figure class="figure">
+                                    <img src="https://referralfw.com/wp-content/uploads/History-Ron-Alan-at-Bane-Clene-1988.jpg" class="figure-img img-fluid rounded" alt="Ron &amp; Alan at Bane Clene in 1988">
+                                    <figcaption class="figure-caption">Ron &amp; Alan at Bane Clene in 1988</figcaption>
+                                </figure>
+                                <figure class="figure">
+                                    <img src="https://referralfw.com/wp-content/uploads/History-Ron-Alan-1988.jpg" class="figure-img img-fluid rounded" alt="Ron &amp; Alan at Bane Clene in 1988">
+                                    <figcaption class="figure-caption">Ron &amp; Alan in 1988</figcaption>
+                                </figure>
                             </div>
                         </div>                        
                     </div>
