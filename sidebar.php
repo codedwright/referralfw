@@ -1,5 +1,10 @@
-<?php /* Template Name: Sidebar Template */ ?>
-<?php get_header(); ?>
+<?php 
+/* 
+// 
+// Template Name: Sidebar Template 
+//
+*/
+get_header(); ?>
 <!-- page_sidebar.php -->
 <?php if(have_posts()) : ?>
 <?php while(have_posts()) : the_post(); ?>
