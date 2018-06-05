@@ -1,10 +1,11 @@
 <?php 
 /* 
+//
 // Template Name: Blog Archive
-// https://wp.smashingmagazine.com/2012/05/wordpress-shortcodes-complete-guide/
+//
 */ 
 ?>
-<?php get_header(); ?><!-- category-blog.php -->
+<?php get_header(); ?><!-- category-community.php -->
 <?php if(have_posts()) : ?>
 <div class="bg-light">
     <main class="bg-light container py-5">

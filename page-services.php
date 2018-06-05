@@ -1,4 +1,4 @@
-<?php get_header(); ?><!-- About -->
+<?php get_header(); ?><!-- Services -->
 <?php if(have_posts()) : ?>
 <?php while(have_posts()) : the_post(); ?>
 <div class="bg-light">
