@@ -7,19 +7,19 @@
             <article class="page col p-3 pr-lg-4">
                 <div class="row align-items-center">
                     <div class="col-md-4">
-                        <figure class="figure">
-                            <img src="https://referralfw.com/wp-content/uploads/New-New-Client-Gift-Card.jpg" alt="New Client Gift Card" class="figure-img img-fluid rounded">
-                            <figcaption class="figure-caption  text-center">New Client Gift Card</figcaption>
+                        <figure class="figure w-100">
+                            <img src="https://referralfw.com/wp-content/uploads/New-Client-Coupon-Image-Square.jpg" alt="New Client Gift Card" class="figure-img img-fluid rounded p-3">
                         </figure>
                     </div>
                     <div class="col-md-8 text-center">
-                        <p class="lead">At Referral, we treat every client with respect and cheerfulness. We think that after just one Referral
+                        <p class="h4 font-weight-light">At Referral, we treat every client with respect and cheerfulness. We think that after just one Referral
                             experience, you will happily join the thousands of other Referral cheerleaders in the Fort Wayne
                             area. As a token of our appreciation, please print this $25 gift card, redeemable during your
-                            first Referral experience.</p>
-                        <a href="https://referralfw.com/wp-content/uploads/New-Client-Coupon.pdf" class="btn btn-primary text-uppercase" target="_blank">Print Gift Card</a>
+                            first Referral experience.</p><br>
+                        <a href="https://referralfw.com/wp-content/uploads/New-Client-Coupon.pdf" class="btn btn-outline-primary text-uppercase" target="_blank">Print Gift Card</a>
                     </div>
                 </div>
+                <hr class="py-md-3">
                 <div class="row">
                     <div class="col">
                         <p class="h3 text-capitalize text-center">
