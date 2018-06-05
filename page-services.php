@@ -6,7 +6,7 @@
         <div class="row">
             <article class="col p-3 pr-lg-4">
                 <div class="jumbotron p-3 p-md-5 text-light rounded bg-dark">
-                    <div class="col-md-6 px-0">
+                    <div class="col-md-8 px-0">
                         <h1 class="display-4 font-italic">
                             Services
                         </h1>

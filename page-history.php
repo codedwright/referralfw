@@ -8,7 +8,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="jumbotron p-3 p-md-5 text-light rounded bg-dark">
-                            <div class="col-md-6 px-0">
+                            <div class="col-md-8 px-0">
                                 <h1 class="display-4 font-italic">
                                     Our History
                                 </h1>
