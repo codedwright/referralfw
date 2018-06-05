@@ -9,7 +9,7 @@ get_header(); ?>
 <?php while(have_posts()) : the_post(); ?>
 <main class="p-2 p-lg-5">
     <div class="row">
-        <div class="widget-area col-4 d-none d-lg-block">
+        <div class="col-4 d-none d-lg-block">
             <form method="get" action="https://localhost/ReferralFW/">
                 <div class="row pl-3 pr-3 pb-3">
                     <?php get_template_part('template-parts/page', 'search'); ?>
