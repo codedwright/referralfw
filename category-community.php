@@ -1,21 +1,21 @@
 <?php 
-/* 
-//
-// Template Name: Blog Archive
+/*
+// 
+// Template Name: Community Archive
 //
 */ 
 ?>
-<?php get_header(); ?><!-- category-community.php -->
+<?php get_header(); ?><!-- category-blog.php -->
 <?php if(have_posts()) : ?>
 <div class="bg-light">
     <main class="bg-light container py-5">
         <div class="row">
-            <div class="page col p-3 pl-lg-4">
-                <h1 class="display-4">Here's What's Up At Referral</h1>
+            <div class="col p-3 pl-lg-4">
+                <h1 class="text-center">Community Support</h1>
             </div>
         </div>
 <?php 
-    $my_query = new WP_Query('post_type=post&category_name=blog&nopaging=1');
+    $my_query = new WP_Query('post_type=post&category_name=community&nopaging=1');
     $counter = 1;
     if($my_query->have_posts()) {
         while($my_query->have_posts() && $counter <= 7) {
