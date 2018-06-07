@@ -4,7 +4,7 @@
 <div class="bg-light">
     <main class="bg-light container py-5">
         <div class="row">
-            <article class="col p-3 pr-lg-4">
+            <article class="content col p-3 pr-lg-4">
                 <div class="row">
                     <form class="col" action="https://referralfw.com/wp-content/themes/referralfw/inc/referral_estimate_mail.php" method="post">
                         <?php wp_nonce_field( basename( __FILE__ ), 'referral_estimate_nonce' ); ?>

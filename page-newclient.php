@@ -4,7 +4,7 @@
 <div class="bg-light">
     <main class="bg-light container py-5">
         <div class="row">
-            <article class="page col p-3 pr-lg-4">
+            <article class="content col p-3 pr-lg-4">
                 <div class="row align-items-center">
                     <div class="col-md-4">
                         <figure class="figure w-100">

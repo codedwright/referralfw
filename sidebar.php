@@ -11,7 +11,7 @@ get_header(); ?>
 <div class="bg-light">
     <main class="bg-light container py-5">
         <div class="row">
-            <article class="col-lg-8">
+            <article class="content col-lg-8">
                 <?php the_content(); ?>
             </article>
             <div class="col-4 d-none d-lg-block py-3 px-lg-4">

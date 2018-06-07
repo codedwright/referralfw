@@ -4,7 +4,7 @@
 <div class="bg-light">
     <main class="bg-light container py-5">
         <div class="row">
-            <article class="col p-3 pr-lg-4">
+            <article class="content col p-3 pr-lg-4">
                 <div class="row">
                     <div class="col-12">
                         <div class="jumbotron p-3 p-md-5 text-light rounded bg-dark">
