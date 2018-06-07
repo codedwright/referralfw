@@ -77,6 +77,14 @@ HTML;
     $data = get_post_meta($post->ID, "referral-team-meta-box", true);
     $count_team = 0;
     // var_dump($data);
+    usort($data, "cmp");
+    function cmp($a, $b) {
+        if ($a['order'] == $b['order']) {
+            return 0;
+        }
+        return ($a['order'] < $b['order']) ? -1 : 1;
+        // return strcmp($a["order"], $b["order"]);
+    }
     if (count($data) > 0 && !empty($data)){
         foreach($data as $team ) {
             // var_dump($team);
