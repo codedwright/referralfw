@@ -21,7 +21,7 @@
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">Our History</h3>
-                                    <p class="card-text">Referral started as an entrepreneurial adventure out of the back of Ron's El Camino, back when big hair and mustaches
+                                    <p class="card-text text-dark">Referral started as an entrepreneurial adventure out of the back of Ron's El Camino, back when big hair and mustaches
                                         were the in thing. His first client? Denny's restaurant.</p>
                                 </div>
                                 <div class="m-0">
@@ -35,7 +35,7 @@
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">The Referral Team</h3>
-                                    <p class="card-text">Our team is made up of individuals who are committed to making cheerleaders for the company. That means you will
+                                    <p class="card-text text-dark">Our team is made up of individuals who are committed to making cheerleaders for the company. That means you will
                                         always be treated with respect by knowledgeable and friendly staff.</p>
                                 </div>
                                 <div class="m-0">
@@ -51,7 +51,7 @@
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">Photo Galleries</h3>
-                                    <p class="card-text">Sometimes you just have to see it to believe it. We have provided cleaning and restoration services for a
+                                    <p class="card-text text-dark">Sometimes you just have to see it to believe it. We have provided cleaning and restoration services for a
                                         wide variety of clients, experiencing a diversity of situations.</p>
                                 </div>
                                 <div class="m-0">
@@ -66,7 +66,7 @@
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">Community Support</h3>
-                                    <p class="card-text">We believe in supporting our community. It is, after all, our home. That's why we take time to invest in
+                                    <p class="card-text text-dark">We believe in supporting our community. It is, after all, our home. That's why we take time to invest in
                                         local businesses and charities. Take a look at what we've been up to.</p>
                                 </div>
                                 <div class="m-0">
@@ -82,7 +82,7 @@
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">Career Opportunities</h3>
-                                    <p class="card-text">Do you have ambition and a willingness to learn? Perhaps this is the place for you. With benefits and a pleasent
+                                    <p class="card-text text-dark">Do you have ambition and a willingness to learn? Perhaps this is the place for you. With benefits and a pleasent
                                         team atmosphere, working with Referral is a pleasant opportunity.</p>
                                 </div>
                                 <div class="m-0">
@@ -97,7 +97,7 @@
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">Why Trust Us</h3>
-                                    <p class="card-text">Advertising and web content can all sound good, but how do you know if you can truly trust a company? We
+                                    <p class="card-text text-dark">Advertising and web content can all sound good, but how do you know if you can truly trust a company? We
                                         have a few reasons why we think you will find us trustworthy.</p>
                                 </div>
                                 <div class="m-0">
@@ -114,7 +114,7 @@
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">Referral's Blog</h3>
-                                    <p class="card-text">This is kind of the newsy part of our website. We tell you what's going on in the company, in the industry,
+                                    <p class="card-text text-dark">This is kind of the newsy part of our website. We tell you what's going on in the company, in the industry,
                                         and in town. Audrey and Alan have also started their own show, so don't miss those!</p>
                                 </div>
                                 <div class="m-0">
@@ -129,7 +129,7 @@
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">The Referral Team</h3>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                    <p class="card-text text-dark">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
                                 </div>
                                 <div class="m-0">
                                     <img class="card-img-right flex-auto d-none d-lg-block" src="https://via.placeholder.com/200x250" />

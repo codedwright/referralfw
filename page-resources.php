@@ -23,7 +23,7 @@
                                     <h3 class="mb-0 text-dark">
                                         Frequently Asked Questions
                                     </h3>
-                                    <p class="card-text">
+                                    <p class="card-text text-dark">
                                         Choosing a service professional can be confusing sometimes. There are so many details to consider. We have gathered up our most frequent questions and answers for your convenience.
                                     </p>
                                 </div>
@@ -40,7 +40,7 @@
                                     <h3 class="mb-0 text-dark">
                                         Cleaning Preparation Checklist
                                     </h3>
-                                    <p class="card-text">
+                                    <p class="card-text text-dark">
                                         So you've scheduled your cleaning appointment. Now what? We've put together a handy checklist of preparation tasks you can perform in order to get the best clean.
                                     </p>
                                 </div>
@@ -59,7 +59,7 @@
                                     <h3 class="mb-0 text-dark">
                                         Post Cleaning Drying Tips
                                     </h3>
-                                    <p class="card-text">
+                                    <p class="card-text text-dark">
                                         One main concern we hear from our clients is "how long will it take to dry?". Here are some tips for continuing the speed drying process after the technicians leave.
                                     </p>
                                 </div>
@@ -76,7 +76,7 @@
                                     <h3 class="mb-0 text-dark">
                                         Carpet Cleaning Consumer Guide
                                     </h3>
-                                    <p class="card-text">
+                                    <p class="card-text text-dark">
                                         The best decisions are based on a foundation of educational research. We've put together a complete guide to choosing a professional carpet cleaner to educate you on the basics of carpet cleaning.
                                     </p>
                                 </div>
@@ -95,7 +95,7 @@
                                     <h3 class="mb-0 text-dark">
                                         Carpet Spotting Guide
                                     </h3>
-                                    <p class="card-text">
+                                    <p class="card-text text-dark">
                                         Accidents happen, resulting in spots and stains on our carpet. The likelihood of spotting is even higher if you have children or pets. Here is a handy guide just for those time.
                                     </p>
                                 </div>
@@ -112,7 +112,7 @@
                                     <h3 class="mb-0 text-dark">
                                         Carpet Care Tips
                                     </h3>
-                                    <p class="card-text">
+                                    <p class="card-text text-dark">
                                         You've invested a large sum of money into your carpeting. That investment deserves the best of care to prolong it's return. This list of tips will give your carpet longevity.
                                     </p>
                                 </div>
@@ -131,7 +131,7 @@
                                     <h3 class="mb-0 text-dark">
                                         Water Restoration Guide
                                     </h3>
-                                    <p class="card-text">
+                                    <p class="card-text text-dark">
                                         We never hope for it, but sometimes flodding happens in homes. What should you do if you find water in your basement or home? Read this guide to learn what to do in such an event.
                                     </p>
                                 </div>
@@ -148,7 +148,7 @@
                                     <h3 class="mb-0 text-dark">
                                         Recommended Ethical Services
                                     </h3>
-                                    <p class="card-text">
+                                    <p class="card-text text-dark">
                                         We offer the very best in cleaning and restoration, but we don't do everything. Sometimes you may need services we do not offer. This list includes service professionals we would recommend.
                                     </p>
                                 </div>
@@ -167,7 +167,7 @@
                                     <h3 class="mb-0 text-dark">
                                         Things To Do In Fort Wayne
                                     </h3>
-                                    <p class="card-text">
+                                    <p class="card-text text-dark">
                                         We are proud of our community and all the events and activities avaiable. We put together this list of resources here in Fort Wayne for your convience.
                                     </p>
                                 </div>
