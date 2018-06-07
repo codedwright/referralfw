@@ -39,7 +39,7 @@
                 </div>
                 <div class="row">
                     <div class="col">
-                        <h6 class="small d-flex align-items-center m-2 py-2">
+                        <h6 class="small d-flex align-items-center mb-2 py-2">
                             <!-- Button trigger modal -->
                             <button type="button" class="px-0 btn btn-primary text-uppercase mr-3" data-toggle="modal" data-target="#exampleModal">
                                 Login
