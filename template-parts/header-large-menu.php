@@ -20,7 +20,7 @@
                         <div class="fa-4x p-2">
                             <span class="d-block m-auto text-center fa-layers fa-fw">
                                 <i class="fas fa-certificate"></i>
-                                <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-11.5 rotate--30" style="font-weight:900;color:black">24/7</span>
+                                <span class="fa-layers-text fa-inverse font-weight-bold text-primary" data-fa-transform="shrink-11.5 rotate--30">24/7</span>
                             </span>
                         </div>
                         <small class="d-block w-100 text-center" style="line-height:1.5">Emergency<br>Response</small>
