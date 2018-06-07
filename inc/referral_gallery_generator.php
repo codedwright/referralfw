@@ -82,7 +82,7 @@ function custom_gallery_grid($output = '', $attrs, $instance) {
             <div class="'.$col_class.'">' .
             '<figure class="figure">' .
                 custom_gallery_item($gallerySrc[0], $galleryAlt, $galleryLinkAttrs) .
-            '<figcaption class="figure-caption text-center">' .
+            '<figcaption class="figure-caption text-center text-capitalize">' .
             $galleryCaption . 
             '</figcaption></figure></div>';
         $i++;
