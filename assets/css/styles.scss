@@ -52,6 +52,7 @@
 @import 'partials/guides';
 @import 'partials/card-img-right';
 @import 'partials/team';
+@import 'partials/login';
 
 $primary: #ED1C24;
 
@@ -60,7 +61,9 @@ body {
     font-weight: 300;
     font-family: 'Lato', Calibri, Arial, sans-serif;
 }
-
+header + .bg-light {
+    min-height: 600px;
+}
 .menu-trigger {
     height: 43px;
     width: 52px;
@@ -99,18 +102,22 @@ body {
     }
 }
 
-header {
-    a:hover {
-        text-decoration: none;
+header, footer {
+    a {
+        color: #f7f7f7;
+        &:hover, &:focus {
+            text-decoration: none;
+            color: #f7f7f7;
+        }
     }
 }
 
 
 
-main {
-    a {
+main .content {
+    a:not(.card-link) {
         font-weight: 400;
-        color: #34495e;
+        color: red; //#34495e;
         background-color: transparent;
         &:hover {
             color: #19232d;
@@ -129,9 +136,8 @@ main {
             pointer-events: none;
         }
     }
-    img {
+    img:not(.card-img-right) {
         @extend .img-fluid;
         @extend .d-flex;
-        @extend .mx-auto;
     }
 }

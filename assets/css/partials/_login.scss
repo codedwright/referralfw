@@ -1,0 +1,14 @@
+.modal-body {
+    a {
+        @extend .btn-link;
+        @extend .text-uppercase;
+    }
+    label:not(:last-child), input:not(#rememberme):not(#wp-submit) {
+        @extend .form-control;
+    }
+    #wp-submit {
+        @extend .btn;
+        @extend .btn-primary;
+        @extend .btn-block;
+    }
+}

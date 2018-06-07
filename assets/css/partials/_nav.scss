@@ -12,8 +12,9 @@ nav {
         line-height: 49px;
         text-transform: uppercase;
         text-decoration: none;
-        &:hover {
+        &:hover, &:focus {
             text-decoration: none;
+            color: #f7f7f7;
         }
         @include media-breakpoint-up(lg) {
             line-height: 1.5;
