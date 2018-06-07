@@ -15,7 +15,7 @@ get_header(); ?>
                 <?php the_content(); ?>
             </article>
             <div class="col-4 d-none d-lg-block py-3 px-lg-4">
-                <form method="get" action="https://localhost/ReferralFW/">
+                <form method="get" action="https://referralfw.com/">
                     <div class="row pl-3 pr-3 pb-4">
                         <?php get_template_part('template-parts/page', 'search'); ?>
                     </div>
@@ -49,7 +49,7 @@ get_header(); ?>
                         <?php get_template_part('template-parts/page', 'playlist'); ?>
                     </div>
                 </div>
-                <form method="get" action="https://referralfw.com//">
+                <form method="get" action="https://referralfw.com/">
                     <div class="row pl-3 pr-3">
                         <?php get_template_part('template-parts/page', 'search'); ?>
                     </div>
