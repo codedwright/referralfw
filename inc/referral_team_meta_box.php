@@ -23,7 +23,13 @@
         global $post;
 
         $data = get_post_meta($post->ID, "referral-team-meta-box", true);
-
+        usort($data, "cmp");
+        function cmp($a, $b) {
+            if ($a == $b) {
+                return 0;
+            }
+            return ($a < $b) ? -1 : 1;
+        }
         $nonce = wp_nonce_field( basename( __FILE__ ), 'referral_team_nonce' );
         $referral_team_meta_box_header = <<<HTML
 <div class="bootstrap">
@@ -36,8 +42,8 @@ HTML;
         $count_team = 0;
         $referral_team_meta_box_body = '';
         if (count($data) > 0 && !empty($data)){
-            foreach((array)$data as $team ) {
-                var_dump($team);
+            foreach($data as $team ) {
+                // var_dump($team);
                 $count_certifications = 0;
                 $certifications = '';
                 if(isset($team['certifications'])) {
@@ -99,9 +105,11 @@ HTML;
     });
     $('#referral-team').on('click', '.remove-certification', function() {
         var teamMember = event.target.dataset.count;
+        alert(teamMember);
         var certificationCount = document.querySelector('#referral-team-meta-box-' + teamMember + '-details .certifications').getElementsByClassName('form-row').length;
+        alert(certificationCount);
         if(certificationCount > 1) {
-            event.target.parentElement.parentElement.parentElement.parentElement.css('display', 'none');
+            event.target.parentElement.parentElement.parentElement.parentElement.remove();
         } else {
             event.target.parentElement.previousSibling.previousSibling.setAttribute('value', '');
         }
