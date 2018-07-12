@@ -28,7 +28,7 @@
                                     </p>
                                 </div>
                                 <div class="m-0">
-                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://via.placeholder.com/200x250" />
+                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://referralfw.com/wp-content/uploads/FAQ200x250.jpg" />
                                 </div>
                             </div>
                         </a>
@@ -45,7 +45,7 @@
                                     </p>
                                 </div>
                                 <div class="m-0">
-                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://via.placeholder.com/200x250" />
+                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://referralfw.com/wp-content/uploads/Clean-Prep-Checklist.jpg" />
                                 </div>
                             </div>
                         </a>
@@ -64,13 +64,13 @@
                                     </p>
                                 </div>
                                 <div class="m-0">
-                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://via.placeholder.com/200x250" />
+                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://referralfw.com/wp-content/uploads/Drying-Tips-1.jpg" />
                                 </div>
                             </div>
                         </a>
                     </div>
                     <div class="col-md-6">
-                        <a class="card-link" href="https://referralfw.com/resources/post-cleaning-drying-tips/">
+                        <a class="card-link" href="http://www.referralfw.com/resource/pdf/Referrals%20Consumer%20Guide%20To%20Carpet%20Cleaning.pdf">
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">
@@ -81,7 +81,7 @@
                                     </p>
                                 </div>
                                 <div class="m-0">
-                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://via.placeholder.com/200x250" />
+                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://referralfw.com/wp-content/uploads/Carpet-Cleaning-Consumer-Guide-Featured-Image.jpg" />
                                 </div>
                             </div>
                         </a>
@@ -100,7 +100,7 @@
                                     </p>
                                 </div>
                                 <div class="m-0">
-                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://via.placeholder.com/200x250" />
+                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://referralfw.com/wp-content/uploads/Carpet-Spotting-Guide.jpg" />
                                 </div>
                             </div>
                         </a>
@@ -117,7 +117,7 @@
                                     </p>
                                 </div>
                                 <div class="m-0">
-                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://via.placeholder.com/200x250" />
+                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://referralfw.com/wp-content/uploads/Carpet-Care-Tips-1.jpg" />
                                 </div>
                             </div>
                         </a>
@@ -125,7 +125,7 @@
                 </div>
                 <div class="row mb-2">
                     <div class="col-md-6">
-                        <a class="card-link" href="#">
+                        <a class="card-link"href="http://www.referralfw.com/resource/pdf/Referrals%20Consumer%20Guide%20To%20Water%20Damage%20Restoration.pdf">
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">
@@ -136,7 +136,7 @@
                                     </p>
                                 </div>
                                 <div class="m-0">
-                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://via.placeholder.com/200x250" />
+                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://referralfw.com/wp-content/uploads/Water-Restoration-Guide.jpg" />
                                 </div>
                             </div>
                         </a>
@@ -153,7 +153,7 @@
                                     </p>
                                 </div>
                                 <div class="m-0">
-                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://via.placeholder.com/200x250" />
+                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://referralfw.com/wp-content/uploads/Ethical-Services.jpg" />
                                 </div>
                             </div>
                         </a>
@@ -161,7 +161,7 @@
                 </div>
                 <div class="row mb-2">
                     <div class="col-md-6">
-                        <a class="card-link" href="https://referralfw.com/resources/links/">
+                        <a class="card-link" href="https://referralfw.com/resources/things-to-do-in-fort-wayne/">
                             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                                 <div class="card-body d-flex flex-column justify-content-center">
                                     <h3 class="mb-0 text-dark">
@@ -172,7 +172,7 @@
                                     </p>
                                 </div>
                                 <div class="m-0">
-                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://via.placeholder.com/200x250" />
+                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://referralfw.com/wp-content/uploads/Things-to-do-in-Fort-Wayne.jpg" />
                                 </div>
                             </div>
                         </a>
