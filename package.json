@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "sass css/styles.scss css/styles.css"
+    "build": "sass assets/css/styles.scss assets/css/styles.css"
   },
   "repository": {
     "type": "git",
@@ -25,17 +25,19 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "grunt": "^1.0.2",
+    "grunt": "^1.0.3",
     "grunt-bump": "^0.8.0",
     "grunt-contrib-compass": "^1.1.1",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-uglify-es": "^3.3.0",
-    "grunt-contrib-watch": "^1.0.1"
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^2.1.0"
   },
   "dependencies": {
-    "bootstrap": "^4.1.0",
+    "bootstrap": "^4.1.2",
     "jquery": "^3.3.1",
-    "popper.js": "^1.14.0"
+    "node-sass": "^4.9.2",
+    "popper.js": "^1.14.3"
   }
 }
