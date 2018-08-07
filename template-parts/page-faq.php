@@ -6,21 +6,19 @@
         $template = 
 <<<HTML
         <div class="card">
-            <div class="card-header" id="headingOne">
+            <div class="card-header" id="heading$index" data-toggle="collapse" data-target="#collapse$index" aria-expanded="false" aria-controls="collapse$index">
                 <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        $title
-                    </button>
+                    <i class="fas fa-chevron-circle-up" style="display:none;"></i><i class="fas fa-chevron-circle-down" style="display:none;"></i>
+                    $title
                 </h5>
             </div>
 
-            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <div id="collapse$index" class="collapse" aria-labelledby="heading$index" data-parent="#accordion">
                 <div class="card-body">
                     $description
                 </div>
             </div>
         </div>
-    </div>
 HTML;
         // this is the template for html of faqs
         echo $template;
