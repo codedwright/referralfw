@@ -24,8 +24,8 @@
                 <div class="row justify-content-between pb-5">
                     <div class="col-md-5">
                         <figure class=" figure d-flex d-lg-inline-block flex-column">
-                            <img src="https://via.placeholder.com/350x350" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                            <figcaption class="figure-caption text-center">A caption for the above image.</figcaption>
+                            <img src="https://referralfw.com/wp-content/uploads/Carpet-Rake-12-in.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                            <figcaption class="figure-caption text-center">18” Grandi Carpet Groomer</figcaption>
                         </figure>
                     </div>
                     <div class="col-md-7 d-flex flex-column justify-content-between border-bottom">
@@ -40,8 +40,8 @@
                 <div class="row justify-content-between pb-5">
                     <div class="col-md-5">
                         <figure class=" figure d-flex d-lg-inline-block flex-column">
-                            <img src="https://via.placeholder.com/350x350" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                            <figcaption class="figure-caption text-center">A caption for the above image.</figcaption>
+                            <img src="https://referralfw.com/wp-content/uploads/Carpet-Rake-18-in.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                            <figcaption class="figure-caption text-center">12” Perky Carpet Groomer</figcaption>
                         </figure>
                     </div>
                     <div class="col-md-7 d-flex flex-column justify-content-between border-bottom">
@@ -54,8 +54,8 @@
                 <div class="row justify-content-between pb-5">
                     <div class="col-md-5">
                         <figure class=" figure d-flex d-lg-inline-block flex-column">
-                            <img src="https://via.placeholder.com/350x350" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                            <figcaption class="figure-caption text-center">A caption for the above image.</figcaption>
+                            <img src="https://referralfw.com/wp-content/uploads/Shoe-Covers.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                            <figcaption class="figure-caption text-center">Shoe Covers</figcaption>
                         </figure>
                     </div>
                     <div class="col-md-7 d-flex flex-column justify-content-between border-bottom">
@@ -75,8 +75,8 @@
                 <div class="row justify-content-between pb-5">
                     <div class="col-md-5">
                         <figure class=" figure d-flex d-lg-inline-block flex-column">
-                            <img src="https://via.placeholder.com/350x350" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                            <figcaption class="figure-caption text-center">A caption for the above image.</figcaption>
+                            <img src="https://referralfw.com/wp-content/uploads/Furniture-Sliders.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                            <figcaption class="figure-caption text-center">EZ Moves&trade; Furniture Sliders</figcaption>
                         </figure>
                     </div>
                     <div class="col-md-7 d-flex flex-column justify-content-between border-bottom">
@@ -96,8 +96,8 @@
                 <div class="row justify-content-between pb-5">
                     <div class="col-md-5">
                         <figure class=" figure d-flex d-lg-inline-block flex-column">
-                            <img src="https://via.placeholder.com/350x350" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                            <figcaption class="figure-caption text-center">A caption for the above image.</figcaption>
+                            <img src="https://referralfw.com/wp-content/uploads/Rug-Pad.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                            <figcaption class="figure-caption text-center">WunderGRIP Rug Pad</figcaption>
                         </figure>
                     </div>
                     <div class="col-md-7 d-flex flex-column justify-content-between border-bottom">
@@ -119,8 +119,8 @@
                 <div class="row justify-content-between pb-5">
                     <div class="col-md-5">
                         <figure class=" figure d-flex d-lg-inline-block flex-column">
-                            <img src="https://via.placeholder.com/350x350" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                            <figcaption class="figure-caption text-center">A caption for the above image.</figcaption>
+                            <img src="https://referralfw.com/wp-content/uploads/Gunland-Grout-Sealer.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                            <figcaption class="figure-caption text-center">Gundlach Grout Sealer</figcaption>
                         </figure>
                     </div>
                     <div class="col-md-7 d-flex flex-column justify-content-between border-bottom">
@@ -133,8 +133,8 @@
                 <div class="row justify-content-between pb-5">
                     <div class="col-md-5">
                         <figure class=" figure d-flex d-lg-inline-block flex-column">
-                            <img src="https://via.placeholder.com/350x350" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                            <figcaption class="figure-caption text-center">A caption for the above image.</figcaption>
+                            <img src="https://referralfw.com/wp-content/uploads/Dupont-Stone-Tile-Cleaner.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                            <figcaption class="figure-caption text-center">DuPont StoneTech Pro Stone and Tile Cleaner</figcaption>
                         </figure>
                     </div>
                     <div class="col-md-7 d-flex flex-column justify-content-between border-bottom">
@@ -154,8 +154,8 @@
                 <div class="row justify-content-between pb-5">
                     <div class="col-md-5">
                         <figure class=" figure d-flex d-lg-inline-block flex-column">
-                            <img src="https://via.placeholder.com/350x350" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                            <figcaption class="figure-caption text-center">A caption for the above image.</figcaption>
+                            <img src="https://referralfw.com/wp-content/uploads/Squeaky-Floor-Care-System-e1528491173264.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                            <figcaption class="figure-caption text-center">Squeaky Floor Care System</figcaption>
                         </figure>
                     </div>
                     <div class="col-md-7 d-flex flex-column justify-content-between border-bottom">
@@ -168,8 +168,8 @@
                 <div class="row justify-content-between pb-5">
                     <div class="col-md-5">
                         <figure class=" figure d-flex d-lg-inline-block flex-column">
-                            <img src="https://via.placeholder.com/350x350" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                            <figcaption class="figure-caption text-center">A caption for the above image.</figcaption>
+                            <img src="https://referralfw.com/wp-content/uploads/Squeaky-Floor-Care-Cleaner.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                            <figcaption class="figure-caption text-center">Squeaky Cleaner For Wood &amp; Laminate Floors</figcaption>
                         </figure>
                     </div>
                     <div class="col-md-7 d-flex flex-column justify-content-between border-bottom">
@@ -189,13 +189,13 @@
                 <div class="row justify-content-between">
                     <div class="col-md-5">
                         <figure class=" figure d-flex d-lg-inline-block flex-column">
-                            <img src="https://via.placeholder.com/350x350" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                            <figcaption class="figure-caption text-center">A caption for the above image.</figcaption>
+                            <img src="https://referralfw.com/wp-content/uploads/Spot-Out-16-oz.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                            <figcaption class="figure-caption text-center">16oz Spot Out</figcaption>
                         </figure>
                     </div>
                     <div class="col-md-7 d-flex flex-column justify-content-between border-bottom">
                         <p><span class="h3">Spot Out</span><br>
-                            <span class="h5 text-uppercase">$4.95 + tax / 8oz<br>$8.95 + tax / 8oz</span><br><br>
+                            <span class="h5 text-uppercase">$4.95 + tax / 8oz<br>$8.95 + tax / 16oz</span><br><br>
                             Spot Out is an all purpose spotter that makes short work of unsightly spots.  This water based problem solver takes out most oil and water based stains when used on wet cleanable carpet, upholstery and clothing stains.  It’s safe on all carpets so you don’t have to worry about permanently bleaching and ruining your carpet.  Spot Out leaves everything fresh and free of sticky, soil-attracting residues without any rinsing.  
                             <a title="Carpet Spotting Guide" href="https://referralfw.com/resources/spotting/">Click here for a spotting guide with more specific instructions for individual spots.</a></p>
                         <p>Size: 8oz | 16oz</p>
@@ -276,8 +276,8 @@
                 <div class="row justify-content-between pb-5">
                     <div class="col-md-5">
                         <figure class=" figure d-flex d-lg-inline-block flex-column">
-                            <img src="https://via.placeholder.com/350x350" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                            <figcaption class="figure-caption text-center">A caption for the above image.</figcaption>
+                            <img src="https://referralfw.com/wp-content/uploads/Vets-Trust-Urine-Cleaner.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                            <figcaption class="figure-caption text-center">16oz Vet’s Trust</figcaption>
                         </figure>
                     </div>
                     <div class="col-md-7 d-flex flex-column justify-content-between border-bottom">
@@ -290,15 +290,15 @@
                 <div class="row justify-content-between pb-5">
                     <div class="col-md-5">
                         <figure class=" figure d-flex d-lg-inline-block flex-column">
-                            <img src="https://via.placeholder.com/350x350" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                            <figcaption class="figure-caption text-center">A caption for the above image.</figcaption>
+                            <img src="https://referralfw.com/wp-content/uploads/No-Problem-Cleaner.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                            <figcaption class="figure-caption text-center">No Problem All Purpose Cleaner</figcaption>
                         </figure>
                     </div>
                     <div class="col-md-7 d-flex flex-column justify-content-between border-bottom">
                         <p><span class="h3">32oz No Problem</span><br>
                             <span class="h5 text-uppercase">$19.95 + tax</span><br><br>
                             A concentrated all purpose cleaner and degreaser for everything that is washable.</p>
-                        <p>Size: 16oz</p>
+                        <p>Size: 32oz</p>
                     </div>
                 </div>
             </article>
