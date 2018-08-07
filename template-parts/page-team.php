@@ -13,7 +13,7 @@ HTML;
             $img_src = $video;
             $embed = <<<HTML
 <div class="embed-responsive embed-responsive-16by9">
-    <img class="embed-responsive-item w-auto" style="right: 0;" src="$img_src" alt="$name Team Page Photo">
+    <img class="embed-responsive-item w-auto img-fluid m-auto" style="right: 0;" src="$img_src" alt="$name Team Page Photo">
 </div>
 HTML;
         } else {
