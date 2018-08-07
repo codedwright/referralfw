@@ -81,7 +81,7 @@
                                     </p>
                                 </div>
                                 <div class="m-0">
-                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://referralfw.com/wp-content/uploads/Carpet-Cleaning-Consumer-Guide-Featured-Image.jpg" />
+                                    <img class="card-img-right flex-auto d-none d-lg-block" src="https://referralfw.com/wp-content/uploads/Carpet-Cleaning-Consumer-Guide.jpg" />
                                 </div>
                             </div>
                         </a>
