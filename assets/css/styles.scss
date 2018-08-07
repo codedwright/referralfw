@@ -61,9 +61,11 @@ body {
     font-weight: 300;
     font-family: 'Lato', Calibri, Arial, sans-serif;
 }
+
 header + .bg-light {
     min-height: 600px;
 }
+
 .menu-trigger {
     height: 43px;
     width: 52px;
@@ -113,9 +115,17 @@ header, footer {
 }
 
 
+[data-toggle="collapse"][aria-expanded="true"]:not(.collapsed) .svg-inline--fa.fa-chevron-circle-up {  
+    display: inline-block !important;
+}
+
+[data-toggle="collapse"].collapsed .svg-inline--fa.fa-chevron-circle-down, [aria-expanded="false"] .svg-inline--fa.fa-chevron-circle-down {
+    display: inline-block !important;
+}
+
 
 main .content {
-    a:not(.card-link) {
+    a:not(.card-link):not(.btn) {
         font-weight: 400;
         color: red; //#34495e;
         background-color: transparent;

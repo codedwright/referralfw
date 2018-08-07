@@ -1,6 +1,6 @@
 .bootstrap {
   /*!
- * Bootstrap v4.1.0 (https://getbootstrap.com/)
+ * Bootstrap v4.1.2 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -57,7 +57,7 @@
   width: device-width;
 }
 
-.bootstrap article, .bootstrap aside, .bootstrap dialog, .bootstrap figcaption, .bootstrap figure, .bootstrap footer, .bootstrap header, .bootstrap hgroup, .bootstrap main, .bootstrap nav, .bootstrap section {
+.bootstrap article, .bootstrap aside, .bootstrap figcaption, .bootstrap figure, .bootstrap footer, .bootstrap header, .bootstrap hgroup, .bootstrap main, .bootstrap nav, .bootstrap section {
   display: block;
 }
 
@@ -192,7 +192,7 @@
 .bootstrap code,
 .bootstrap kbd,
 .bootstrap samp {
-  font-family: monospace, monospace;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: 1em;
 }
 
@@ -214,6 +214,7 @@
 
 .bootstrap svg:not(:root) {
   overflow: hidden;
+  vertical-align: middle;
 }
 
 .bootstrap table {
@@ -505,13 +506,6 @@
 .bootstrap .figure-caption {
   font-size: 90%;
   color: #6c757d;
-}
-
-.bootstrap code,
-.bootstrap kbd,
-.bootstrap pre,
-.bootstrap samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .bootstrap code {
@@ -1912,6 +1906,12 @@ a > .bootstrap code {
   display: block;
 }
 
+.was-validated .bootstrap .form-control-file:valid ~ .valid-feedback,
+.was-validated .bootstrap .form-control-file:valid ~ .valid-tooltip, .bootstrap .form-control-file.is-valid ~ .valid-feedback,
+.bootstrap .form-control-file.is-valid ~ .valid-tooltip {
+  display: block;
+}
+
 .was-validated .bootstrap .form-check-input:valid ~ .form-check-label, .bootstrap .form-check-input.is-valid ~ .form-check-label {
   color: #28a745;
 }
@@ -2006,6 +2006,12 @@ a > .bootstrap code {
 .bootstrap .custom-select:invalid ~ .invalid-tooltip,
 .bootstrap .custom-select.is-invalid ~ .invalid-feedback,
 .bootstrap .custom-select.is-invalid ~ .invalid-tooltip {
+  display: block;
+}
+
+.was-validated .bootstrap .form-control-file:invalid ~ .invalid-feedback,
+.was-validated .bootstrap .form-control-file:invalid ~ .invalid-tooltip, .bootstrap .form-control-file.is-invalid ~ .invalid-feedback,
+.bootstrap .form-control-file.is-invalid ~ .invalid-tooltip {
   display: block;
 }
 
@@ -3145,12 +3151,6 @@ a > .bootstrap code {
   margin-bottom: 0;
 }
 
-.bootstrap .input-group > .form-control:focus,
-.bootstrap .input-group > .custom-select:focus,
-.bootstrap .input-group > .custom-file:focus {
-  z-index: 3;
-}
-
 .bootstrap .input-group > .form-control + .form-control,
 .bootstrap .input-group > .form-control + .custom-select,
 .bootstrap .input-group > .form-control + .custom-file,
@@ -3161,6 +3161,12 @@ a > .bootstrap code {
 .bootstrap .input-group > .custom-file + .custom-select,
 .bootstrap .input-group > .custom-file + .custom-file {
   margin-left: -1px;
+}
+
+.bootstrap .input-group > .form-control:focus,
+.bootstrap .input-group > .custom-select:focus,
+.bootstrap .input-group > .custom-file .custom-file-input:focus ~ .custom-file-label {
+  z-index: 3;
 }
 
 .bootstrap .input-group > .form-control:not(:last-child),
@@ -3186,8 +3192,7 @@ a > .bootstrap code {
   border-bottom-right-radius: 0;
 }
 
-.bootstrap .input-group > .custom-file:not(:first-child) .custom-file-label,
-.bootstrap .input-group > .custom-file:not(:first-child) .custom-file-label::after {
+.bootstrap .input-group > .custom-file:not(:first-child) .custom-file-label {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
@@ -3304,13 +3309,14 @@ a > .bootstrap code {
 }
 
 .bootstrap .custom-control-label {
+  position: relative;
   margin-bottom: 0;
 }
 
 .bootstrap .custom-control-label::before {
   position: absolute;
   top: 0.25rem;
-  left: 0;
+  left: -1.5rem;
   display: block;
   width: 1rem;
   height: 1rem;
@@ -3323,7 +3329,7 @@ a > .bootstrap code {
 .bootstrap .custom-control-label::after {
   position: absolute;
   top: 0.25rem;
-  left: 0;
+  left: -1.5rem;
   display: block;
   width: 1rem;
   height: 1rem;
@@ -3395,7 +3401,7 @@ a > .bootstrap code {
 .bootstrap .custom-select:focus {
   border-color: #80bdff;
   outline: 0;
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075), 0 0 5px rgba(128, 189, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(128, 189, 255, 0.5);
 }
 
 .bootstrap .custom-select:focus::-ms-value {
@@ -3458,6 +3464,10 @@ a > .bootstrap code {
   border-color: #80bdff;
 }
 
+.bootstrap .custom-file-input:disabled ~ .custom-file-label {
+  background-color: #e9ecef;
+}
+
 .bootstrap .custom-file-input:lang(en) ~ .custom-file-label::after {
   content: "Browse";
 }
@@ -3484,7 +3494,7 @@ a > .bootstrap code {
   bottom: 0;
   z-index: 3;
   display: block;
-  height: calc(calc(2.25rem + 2px) - 1px * 2);
+  height: 2.25rem;
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
   color: #495057;
@@ -3516,7 +3526,14 @@ a > .bootstrap code {
   background-color: #007bff;
   border: 0;
   border-radius: 1rem;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   appearance: none;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  .bootstrap .custom-range::-webkit-slider-thumb {
+    transition: none;
+  }
 }
 
 .bootstrap .custom-range::-webkit-slider-thumb:focus {
@@ -3544,7 +3561,14 @@ a > .bootstrap code {
   background-color: #007bff;
   border: 0;
   border-radius: 1rem;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   appearance: none;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  .bootstrap .custom-range::-moz-range-thumb {
+    transition: none;
+  }
 }
 
 .bootstrap .custom-range::-moz-range-thumb:focus {
@@ -3572,7 +3596,14 @@ a > .bootstrap code {
   background-color: #007bff;
   border: 0;
   border-radius: 1rem;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   appearance: none;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  .bootstrap .custom-range::-ms-thumb {
+    transition: none;
+  }
 }
 
 .bootstrap .custom-range::-ms-thumb:focus {
@@ -3603,6 +3634,20 @@ a > .bootstrap code {
   margin-right: 15px;
   background-color: #dee2e6;
   border-radius: 1rem;
+}
+
+.bootstrap .custom-control-label::before,
+.bootstrap .custom-file-label,
+.bootstrap .custom-select {
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  .bootstrap .custom-control-label::before,
+  .bootstrap .custom-file-label,
+  .bootstrap .custom-select {
+    transition: none;
+  }
 }
 
 .bootstrap .nav {
@@ -4972,14 +5017,14 @@ a > .bootstrap code {
   opacity: .5;
 }
 
-.bootstrap .close:hover, .bootstrap .close:focus {
+.bootstrap .close:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.bootstrap .close:not(:disabled):not(.disabled):hover, .bootstrap .close:not(:disabled):not(.disabled):focus {
   color: #000;
   text-decoration: none;
   opacity: .75;
-}
-
-.bootstrap .close:not(:disabled):not(.disabled) {
-  cursor: pointer;
 }
 
 .bootstrap button.close {
@@ -5450,21 +5495,23 @@ a > .bootstrap code {
   display: none;
   align-items: center;
   width: 100%;
-  transition: transform 0.6s ease;
   backface-visibility: hidden;
   perspective: 1000px;
-}
-
-@media screen and (prefers-reduced-motion: reduce) {
-  .bootstrap .carousel-item {
-    transition: none;
-  }
 }
 
 .bootstrap .carousel-item.active,
 .bootstrap .carousel-item-next,
 .bootstrap .carousel-item-prev {
   display: block;
+  transition: transform 0.6s ease;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  .bootstrap .carousel-item.active,
+  .bootstrap .carousel-item-next,
+  .bootstrap .carousel-item-prev {
+    transition: none;
+  }
 }
 
 .bootstrap .carousel-item-next,
@@ -5614,6 +5661,7 @@ a > .bootstrap code {
   margin-right: 3px;
   margin-left: 3px;
   text-indent: -999px;
+  cursor: pointer;
   background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -8435,6 +8483,19 @@ a > .bootstrap code {
   .bootstrap .table-bordered th,
   .bootstrap .table-bordered td {
     border: 1px solid #dee2e6 !important;
+  }
+  .bootstrap .table-dark {
+    color: inherit;
+  }
+  .bootstrap .table-dark th,
+  .bootstrap .table-dark td,
+  .bootstrap .table-dark thead th,
+  .bootstrap .table-dark tbody + tbody {
+    border-color: #dee2e6;
+  }
+  .bootstrap .table .thead-dark th {
+    color: inherit;
+    border-color: #dee2e6;
   }
 }
 
