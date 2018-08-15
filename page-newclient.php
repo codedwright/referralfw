@@ -1,7 +1,6 @@
 <?php get_header(); ?><!-- New Client -->
 <?php if(have_posts()) : ?>
 <?php while(have_posts()) : the_post(); ?>
-
 <div class="bg-light">
     <main class="bg-light container py-5">
         <div class="row">
@@ -30,7 +29,7 @@
 				<div class="row align-items-center">
                     <div class="col-md-4">
                         <figure class="figure w-100">
-                            <img src="https://referralfw.com/wp-content/uploads/Referral-Reward-Image-SQ.jpg" alt="New Client Gift Card" class="figure-img img-fluid rounded p-3" style="vertical-align:top">
+                            <img src="https://referralfw.com/wp-content/uploads/Referral-Reward-Image-SQ.jpg" alt="New Client Gift Card" class="figure-img img-fluid rounded p-3">
                         </figure>
                     </div>
                     <div class="col-md-8">
