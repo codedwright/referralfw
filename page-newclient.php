@@ -7,7 +7,7 @@
             <article class="content col p-3 pr-lg-4">
 				<div class="row">
 					<div class="col-md-4 text-center">
-					<h2>New Client Savings</h2>						
+					<h2>New Client Coupon</h2>						
 					</div>
 					<div class="col">		
 					</div>
@@ -21,7 +21,7 @@
                     <div class="col-md-8 pt-3">						
                         <p class="h5 font-weight-normal">At Referral, we treat every client with respect and cheerfulness. We think that after just one Referral
                             experience, you will happily join the thousands of other Referral cheerleaders in the Fort Wayne
-                            area. As a token of our appreciation, please print this $25 gift card, redeemable during your
+                            area. As a token of our appreciation, please print this $25 coupon for carpet cleaning or any of our services, redeemable during your
                             first Referral experience.</p><br>
                         <center><a href="https://referralfw.com/wp-content/uploads/New-Client-Coupon.pdf" class="btn btn-primary text-uppercase" target="_blank">Print Gift Card</a></center>
                     </div>
@@ -29,7 +29,7 @@
 				<hr>
 				<div class="row">
 					<div class="col-md-4 text-center">
-					<h2>Loyal Client Savings</h2>						
+					<h2>Loyal Client Credits</h2>						
 					</div>
 					<div class="col">		
 					</div>
@@ -43,8 +43,8 @@
                     </div>
                     <div class="col-md-8 pt-3">
 						<p class="h5 font-weight-normal">If you're a current client, you know that our service is top notch and our cleaning methods outshine the competitors. But did you know that we actually give you credit for telling your friends and family about our services?</p> 
-						<p class="h5 font-weight-normal">For every person you refer who also schedules a cleaning job, you will receive a $25 credit toward any of our services.</p> 
-						<p class="h5 font-weight-normal">When you refer a water damage emergency, we will reward you with a $50 credit toward any of our services.</p>
+						<p class="h5 font-weight-normal">For every person you refer who also schedules a cleaning job, you will receive a $25 credit. This coupon is good toward carpet cleaning or any of our cleaning services.</p> 
+						<p class="h5 font-weight-normal">When you refer a water damage emergency, we will reward you with a $50 credit coupon toward any of our services.</p>
 						<p class="h5 font-weight-normal">The best part? There's no limit to the number of referral rewards you can pile up. So go ahead! Start your very own referral reward collection. You could easily end up with free cleaning services.</p>
 						<p><strong><em>There are three ways to refer others to our company:</em></strong></p>
 						<ol>
@@ -95,7 +95,7 @@
                     <div class="col-md-8 pt-3">
                         <p class="h5 font-weight-normal">Our newsletter subscribers have access to monthly specials and coupons. We are working on a way for you to sign up right here on our website, but for now, if you are not already receiving our newsletters and would like to, give us a quick call, and we will add you to the list.</p>
 							<br>
-						<p class="h5 font-weight-normal">We also occasionally send out postcards to those on our mailing list. These postcards generally have a special offer listed on them.</p>
+						<p class="h5 font-weight-normal">We also occasionally send out postcards to those on our mailing list. These postcards generally have a special offer or coupon listed on them.</p>
 
 					</div>
 				</div>
